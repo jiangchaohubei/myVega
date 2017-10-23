@@ -1,0 +1,21 @@
+2017-10-13 09:55:56,582 inventoriesdb.py[line:131] INFO group_select start
+2017-10-13 09:55:56,592 inventoriesdb.py[line:177] INFO group_select end
+2017-10-13 09:56:00,808 inventoriesdb.py[line:131] INFO group_select start
+2017-10-13 09:56:00,816 inventoriesdb.py[line:177] INFO group_select end
+2017-10-13 13:55:34,065 inventoriesdb.py[line:131] INFO group_select start
+2017-10-13 13:55:34,071 inventoriesdb.py[line:177] INFO group_select end
+2017-10-13 13:55:45,084 inventoriesdb.py[line:44] INFO {'owner': u'all', 'variables': u'', 'name': u'group_test', 'description': u'test'}
+2017-10-13 13:55:48,119 inventoriesdb.py[line:131] INFO group_select start
+2017-10-13 13:55:48,125 inventoriesdb.py[line:177] INFO group_select end
+2017-10-13 13:55:49,407 inventoriesdb.py[line:459] INFO host_select start
+2017-10-13 13:55:49,421 inventoriesdb.py[line:498] INFO host_select end
+2017-10-13 13:55:58,503 inventoriesdb.py[line:333] INFO host_add start
+2017-10-13 13:55:58,562 inventoriesdb.py[line:374] INFO host_add end
+2017-10-13 13:55:58,648 inventoriesdb.py[line:459] INFO host_select start
+2017-10-13 13:55:58,654 inventoriesdb.py[line:498] INFO host_select end
+2017-10-13 13:56:08,946 inventoriesdb.py[line:333] INFO host_add start
+2017-10-13 13:56:09,020 inventoriesdb.py[line:374] INFO host_add end
+2017-10-13 13:56:09,112 inventoriesdb.py[line:459] INFO host_select start
+2017-10-13 13:56:09,118 inventoriesdb.py[line:498] INFO host_select end
+2017-10-13 16:21:07,880 inventoriesdb.py[line:134] INFO group_select start
+2017-10-13 16:21:07,888 inventoriesdb.py[line:180] INFO group_select end

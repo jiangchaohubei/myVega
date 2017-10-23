@@ -1,0 +1,99 @@
+<html lang="zh_CN">
+<head>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="robots" content="NONE,NOARCHIVE">
+    <title>用户设置列表 | DjangoX</title>
+    <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+    <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+
+
+    <!--bootstrap/表格-->
+    <link href="/static/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/stylesheets/bootstrap-table.css">
+    <link rel="stylesheet" href="/static/js/bootstrap/css/table.css">
+
+
+
+
+</head>
+
+<body class="change-list">
+<div id="body-content" class="clearfix row" style="margin-top: 15px;">
+    <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+<!--足迹导航-->
+        <ul class="breadcrumb">
+            <li>意见反馈</li>
+        </ul>
+    </div>
+
+     <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+
+               <p style="font-size: 19px;color: #478FCA">您有什么问题或者建议对我们说的么？</p>
+            </div>
+        </div>
+     </div>
+
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+           <div class="span12">
+                    <textarea id="topic" class="form-control" rows="1" name="topic" placeholder="您的主题:"></textarea>
+           </div>
+        </div>
+    </div>
+
+
+
+     <!-- 反馈内容 -->
+    <div class="container-fluid" style="padding-top: 20px">
+        <div class="row-fluid">
+            <div class="span12">
+               <div class="feedmain">
+               <textarea id="content" class="form-control" rows="5" name="content" placeholder="您的宝贵意见,就是我们进步的源泉"></textarea>
+               </div>
+            </div>
+        </div>
+     </div>
+      <!-- 提交 -->
+      <div class="container-fluid" style="margin-top: 20px">
+        <div class="row-fluid">
+            <div class="span12">
+               <button type="button" class="btn btn-primary btn-lg btn-block" onclick="feedback()">提交</button>
+            </div>
+        </div>
+     </div>
+      <!-- 导出用户提出的所有意见 -->
+     <div class="container-fluid" style="margin-top: 20px">
+        <div class="row-fluid">
+            <div class="span12">
+               <button type="button" class="btn btn-primary btn-lg btn-block" onclick="exportFeedback()">导出用户提出的所有反馈意见</button>
+            </div>
+        </div>
+     </div>
+</div>
+
+
+    <script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+    <script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+    <script src="/static/javascript/common.js"></script>
+    <script src="/static/javascript/js/feedback/feedback.js"></script>
+
+
+
+</body></html>
+

@@ -1,0 +1,41 @@
+2017-10-12 10:23:07,141 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 10:23:07,176 jobTemplatedb.py[line:154] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 10:23:07,177 jobTemplatedb.py[line:155] INFO job_select end
+2017-10-12 10:23:07,923 jobTemplatedb.py[line:709] INFO init_commands_select start
+2017-10-12 10:23:07,940 jobTemplatedb.py[line:717] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}, {"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "sdfsf", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T18:15:05", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T18:15:05", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "fdf"}, "model": "app_tower.t_group", "pk": 2}]
+2017-10-12 10:23:07,943 jobTemplatedb.py[line:718] INFO credentialsList:[]
+2017-10-12 10:23:07,948 jobTemplatedb.py[line:719] INFO init_commands_select end
+2017-10-12 14:14:27,846 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:14:27,857 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:14:27,858 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:15:02,322 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:18:34,789 jobTemplatedb.py[line:712] INFO init_commands_select start
+2017-10-12 14:18:34,798 jobTemplatedb.py[line:720] INFO groupList:[]
+2017-10-12 14:18:34,799 jobTemplatedb.py[line:721] INFO credentialsList:[]
+2017-10-12 14:18:34,799 jobTemplatedb.py[line:722] INFO init_commands_select end
+2017-10-12 14:18:38,276 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:18:38,301 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:18:38,301 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:18:40,407 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:31,684 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:31,696 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:31,696 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:33:34,599 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:34,605 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:34,607 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:33:39,757 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:39,763 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:39,763 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:33:41,207 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:41,216 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:41,216 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:33:43,604 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:43,608 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:43,608 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:33:44,658 jobTemplatedb.py[line:112] INFO job_select start
+2017-10-12 14:33:44,667 jobTemplatedb.py[line:157] INFO response_data:{'total': 0, 'rows': u'[]', 'result': 'Success'}
+2017-10-12 14:33:44,667 jobTemplatedb.py[line:158] INFO job_select end
+2017-10-12 14:48:27,987 jobTemplatedb.py[line:712] INFO init_commands_select start
+2017-10-12 14:48:28,032 jobTemplatedb.py[line:720] INFO groupList:[]
+2017-10-12 14:48:28,033 jobTemplatedb.py[line:721] INFO credentialsList:[]
+2017-10-12 14:48:28,033 jobTemplatedb.py[line:722] INFO init_commands_select end

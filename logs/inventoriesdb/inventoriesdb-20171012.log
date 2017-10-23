@@ -1,0 +1,12 @@
+2017-10-12 10:34:07,081 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 10:34:07,091 inventoriesdb.py[line:177] INFO group_select end
+2017-10-12 14:39:34,838 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 14:39:34,845 inventoriesdb.py[line:177] INFO group_select end
+2017-10-12 14:39:36,206 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 14:39:36,210 inventoriesdb.py[line:177] INFO group_select end
+2017-10-12 14:39:37,055 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 14:39:37,059 inventoriesdb.py[line:177] INFO group_select end
+2017-10-12 14:39:38,171 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 14:39:38,177 inventoriesdb.py[line:177] INFO group_select end
+2017-10-12 14:39:39,089 inventoriesdb.py[line:131] INFO group_select start
+2017-10-12 14:39:39,095 inventoriesdb.py[line:177] INFO group_select end

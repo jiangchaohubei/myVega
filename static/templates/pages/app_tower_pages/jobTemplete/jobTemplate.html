@@ -1,0 +1,444 @@
+<html lang="zh_CN">
+<head>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="robots" content="NONE,NOARCHIVE">
+    <title>用户设置列表 | DjangoX</title>
+    <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+
+    <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen"
+          rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+
+    <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+
+    <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+    <link href="/static/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/stylesheets/bootstrap-table.css">
+    <link rel="stylesheet" href="/static/js/bootstrap/css/table.css">
+    <link rel="stylesheet" href="/static/js/multiple-select/multiple-select.css">
+</head>
+<body class="change-list">
+
+<!-- Header -->
+
+<div id="body-content" class="clearfix row" style="margin-top: 15px;">
+
+
+    <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+
+        <ul class="breadcrumb">
+
+
+            <li>
+                任务模板
+
+            </li>
+
+
+        </ul>
+        <form id="formSearch" class="form" style="margin:0;display:block">
+            <div class="form-group form-group-xs col-xs-12">
+                <div class="col-xs-12">
+                    <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 "
+                         style="margin-top:5px;padding:0;height: 34px">
+                        <label title="任务名称" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                            任务名称:
+                        </label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                         <span class="block input-icon input-icon-right">
+                           <input type="text" class="form-control" placeholder="请输入任务名称" id="name">
+                         </span>
+                    </div>
+
+                    <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2"
+                         style="margin-top:5px;padding:0;height: 34px">
+                        <label title="描述" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="description">
+                            描述:
+                        </label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                        <span class="block input-icon input-icon-right">
+                           <input type="text" class="form-control" placeholder="请输入描述" id="description">
+                         </span>
+                    </div>
+
+                    <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2"
+                         style="margin-top:5px;padding:0;height: 34px">
+                        <label title="Labels" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="Labels">
+                            Labels:
+                        </label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                         <span class="block input-icon input-icon-right">
+                           <input type="text" class="form-control" placeholder="请输入Labels" id="Labels">
+                         </span>
+                    </div>
+                </div>
+            </div><!-- form-group div over -->
+        </form>
+
+        <div style="margin-top: 15px;text-align: center">
+            <div>
+                <button type="button" class="btn btn-primary" style="margin-top:20px;width: 80px;" onclick="jobTemplatesearch()">查询
+                </button>
+                <button type="button" class="btn btn-warning" style="margin-top:20px;width: 80px;margin-left: 20px"
+                        onclick="jobTemplatesearchReset()">重置
+                </button>
+
+            </div>
+        </div>
+
+        <div class="navbar content-navbar navbar-default navbar-xs" data-toggle="breakpoint"
+             data-class-xs="navbar content-navbar navbar-inverse navbar-xs"
+             data-class-sm="navbar content-navbar navbar-default navbar-xs">
+            <div class="navbar-header">
+
+                <a href="/app_tower/job/to_job_add" class="navbar-toggle pull-right"><i
+                        class="fa fa-plus"></i></a>
+
+                <a class="navbar-brand" data-toggle="collapse" data-target="#top-nav .navbar-collapse">
+                    <i class="fa fa-cog"></i> 任务列表
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                </ul>
+
+
+                <div class="navbar-btn navbar-right hide-xs">
+
+
+                    <a href="/app_tower/job/to_job_add" class="btn btn-primary"><i class="fa fa-plus"></i>
+                        创建任务列表</a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--主机列表-->
+
+        <div class="results table-responsive">
+
+            <table id="job_table"></table>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="modal fade" id="deleteJobModal">
+    <div class="modal-dialog" style="width:650px">
+        <div class="modal-content message_align">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">×</span></button>
+                <h4 class="modal-title" title="删除任务确认">删除任务确认</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" style="margin-left:35px;height:25px" id="delete_id" hidden>
+                <div class="profile-user-info profile-user-info-striped">
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="任务名称">任务名称</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteName"></span>
+                        </div>
+
+                        <div class="profile-info-name" title="描述">描述</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteDescription"></span>
+                        </div>
+                    </div>
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="执行类型">执行类型</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteJob_type"></span>
+                        </div>
+
+                        <div class="profile-info-name" title="主机组">主机组</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteGroup_id"></span>
+                        </div>
+                    </div>
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="playbook">playbook</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deletePlaybook_file"></span>
+                        </div>
+
+                        <div class="profile-info-name" title="forks">forks</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteForks"></span>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="授权凭证">授权凭证</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteLogin_credentials"></span>
+                        </div>
+
+                        <div class="profile-info-name" title="搜索标签">搜索标签</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteLabels"></span>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="使用授权">使用授权</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="delete_owner"></span>
+                        </div>
+
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="Job tags">Job tags</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteJob_tags"></span>
+                        </div>
+
+                        <div class="profile-info-name" title="Job tags">Skip tags</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteSkip_tags"></span>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="Extra variable">Extra variable</div>
+                        <div class="profile-info-value">
+                            <textarea  id="deleteExtra_variable" rows="4" disabled></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="text-align: center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" onclick="deleteJobTemplate()" data-dismiss="modal" class="btn btn-success">
+                        确定
+                    </button>
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</div>
+
+
+<div class="modal fade" id="updateJobModal">
+    <div class="modal-dialog" style="width:650px">
+        <div class="modal-content message_align">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">×</span></button>
+                <h4 class="modal-title" title="任务模板修改">任务模板修改</h4>
+            </div>
+            <div class="modal-body">
+                <form id="update_jobtemplete_form">
+
+                <input type="text" style="margin-left:35px;height:25px" id="update_id" hidden>
+                <div class="profile-user-info profile-user-info-striped">
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="任务名称">任务名称</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateName"/>
+                        </div>
+                        <div class="profile-info-name" title="描述">描述</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateDescription"/>
+                        </div>
+                    </div>
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="执行类型">执行类型</div>
+
+                        <select id="updateJob_type" style="height: 26px;width: 174px;margin-left: 10px">
+                            <option value="-1">全部类型</option>
+                            <option value="Run">Run</option>
+                            <option value="Check">Check</option>
+                            <option value="Scan">Scan</option>
+                        </select>
+
+                        <div class="profile-info-name" title="主机组">主机组</div>
+                          <select id="updateGroup_id" style="height: 26px;width: 174px;margin-left: 10px">
+                          </select>
+
+                    </div>
+
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="playbook">playbook</div>
+                        <div class="profile-info-value input-group">
+                           <!-- <input type="text" id="updatePlaybook_file" style="width: 120px;margin-right:-4px">-->
+                            <select id="updatePlaybook_file" style="height: 26px;width: 120px;margin-right:-4px">
+                            </select>
+                            <button class="" onclick="showReviewModal()" type="button">
+                                预览
+                            </button>
+                        </div>
+
+                        <div class="profile-info-name" title="forks">forks</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateForks"/>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="登录凭证">登录凭证</div>
+
+                        <select id="updateLogin_credentials" style="height: 26px;width: 174px;margin-left: 10px">
+                        </select>
+
+
+                        <div class="profile-info-name" title="搜索标签">搜索标签</div>
+                        <div class="profile-info-value">
+
+                            <input type="text" id="updateLabels" title="以英文逗号隔开，例：label1,label2,label3"/>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="使用授权">使用授权</div>
+
+                        <select id="update_owner" style="height: 26px;width: 174px;margin-left: 10px">
+                            <option value="onlyOne">仅自己</option>
+                            <option value="all">所有人</option>
+                        </select>
+
+                    </div>
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="Job tags">Job tags</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateJob_tags" title="以英文逗号隔开 例: tag1,tag2,tag3 ；为空默认全部"/>
+                        </div>
+
+                        <div class="profile-info-name" title="Skip tags">Skip tags</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateSkip_tags" title="以英文逗号隔开 例: tag1,tag2,tag3"/>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="Extra variable">Extra variable</div>
+                        <div class="profile-info-value">
+                            <textarea     id="updateExtra_variable" rows="4" title='json格式，例：{"var1":"var1","var2":"var2"}'></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="text-align: center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" onclick="updateJobTemplate()" data-dismiss="modal" class="btn btn-success">
+                        确定
+                    </button>
+
+                </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</div>
+<!--预览模态框-->
+<div class="modal fade" id="reviewModal">
+    <div class="modal-dialog" style="width:650px">
+        <div class="modal-content message_align">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" title="预览">预览</h4>
+            </div>
+            <div class="modal-body">
+                <textarea class="form-control" disabled wrap="off" style="border-style:none;overflow:scroll;" rows="20" ng-model="ansible_log" ng-show="ansible_log" id="reviewTextarea"></textarea>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+
+
+                </div>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--确认执行模态框-->
+<div class="modal fade" id="sureRunModal">
+    <div class="modal-dialog" style="width:650px">
+        <div class="modal-content message_align">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" title="确认执行">确认执行</h4>
+            </div>
+            <div class="modal-body">
+                <span id="jobTempleteId" style="display: none"></span>
+                <span id="tipInfo" style="color:red;font-size:20px"></span>
+                <span id="groupId" style="display: none"></span>
+                <div class="row" style="padding: 10px">
+                <div class="row">
+                    <label for="auth" class="control-label col-md-3 requiredField" style="height:64px;line-height:50px;">主机筛选<span class="asteriskField">*</span> </label>
+                    <div class="controls col-md-8" style="height:64px;">
+
+                        <select id="chooseHost" multiple="multiple">
+                            <option>no hosts</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">Job Tags<span class="asteriskField">*</span> </label>
+                    <div class="controls col-md-8" style="height:64px;">
+                        <input type="text" class="form-control" value="" placeholder="以英文逗号隔开 例: tag1,tag2,tag3 ；为空默认全部" id="jobTags">&nbsp;
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">Skip Tags<span class="asteriskField">*</span> </label>
+                    <div class="controls col-md-8" style="height:64px;">
+                        <input type="text" class="form-control" value="" placeholder="以英文逗号隔开 例: tag1,tag2,tag3" id="skipTags">&nbsp;
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-md-3 control-label" for="name" style="height:64px;line-height:50px;">Extra Variable</label>
+                    <div  class="col-md-8"  >
+                        <textarea class="form-control" id="variable" placeholder='json格式，例：{"var1":"var1","var2":"var2"}'></textarea>
+                    </div>
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" onclick="beSureRun()" data-dismiss="modal" class="btn btn-success">
+                        确定
+                    </button>
+
+                </div>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<br>
+<br>
+<script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+
+
+<!--bootstrap/表格-->
+
+<script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/static/javascript/bootstrap-table.js"></script>
+<script src="/static/javascript/bootstrap-table-zh-CN.js"></script>
+<script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+<script src="/static/javascript/jquery.validate.js"></script>
+<script src="/static/javascript/common.js"></script>
+<script src="/static/js/multiple-select/multiple-select.js"></script>
+<script type="text/javascript" src="/static/javascript/js/app_tower_js/jobTemplete/jobTemplate.js"></script>
+
+
+</body>
+</html>

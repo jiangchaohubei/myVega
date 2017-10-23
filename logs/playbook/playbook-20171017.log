@@ -1,0 +1,9 @@
+2017-10-17 09:32:53,388 playbook.py[line:96] INFO playbook_select start
+2017-10-17 09:32:53,398 playbook.py[line:144] INFO playbook_select end
+2017-10-17 09:33:42,568 playbook.py[line:96] INFO playbook_select start
+2017-10-17 09:33:42,575 playbook.py[line:144] INFO playbook_select end
+2017-10-17 09:33:43,582 playbook.py[line:96] INFO playbook_select start
+2017-10-17 09:33:43,588 playbook.py[line:144] INFO playbook_select end
+2017-10-17 14:53:19,476 playbook.py[line:97] INFO playbook_select start
+2017-10-17 14:53:19,480 playbook.py[line:129] INFO 6
+2017-10-17 14:53:19,483 playbook.py[line:145] INFO playbook_select end

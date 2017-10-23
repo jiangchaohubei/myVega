@@ -1,0 +1,22 @@
+2017-10-16 10:04:34,250 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 10:04:34,255 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 10:04:49,023 inventoriesdb.py[line:44] INFO {'owner': u'all', 'variables': u'', 'name': u'group_test', 'description': u'test'}
+2017-10-16 11:50:59,726 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 11:50:59,736 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 11:51:02,473 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 11:51:02,483 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 17:44:45,887 inventoriesdb.py[line:587] INFO downloadXLSX start
+2017-10-16 17:44:45,888 inventoriesdb.py[line:605] INFO D:\vega\vega/static/doc/instructions.pptx
+2017-10-16 17:44:45,891 inventoriesdb.py[line:609] INFO downloadXLSX end
+2017-10-16 17:49:42,947 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 17:49:42,954 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 17:50:06,861 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 17:50:06,867 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 17:55:00,042 inventoriesdb.py[line:587] INFO downloadXLSX start
+2017-10-16 17:55:00,046 inventoriesdb.py[line:605] INFO D:\vega\vega/static/doc/instructions.pptx
+2017-10-16 17:55:00,046 inventoriesdb.py[line:609] INFO downloadXLSX end
+2017-10-16 17:55:08,125 inventoriesdb.py[line:134] INFO group_select start
+2017-10-16 17:55:08,144 inventoriesdb.py[line:180] INFO group_select end
+2017-10-16 18:04:22,645 inventoriesdb.py[line:587] INFO downloadXLSX start
+2017-10-16 18:04:22,648 inventoriesdb.py[line:605] INFO D:\vega\vega/static/doc/instructions.pptx
+2017-10-16 18:04:22,648 inventoriesdb.py[line:609] INFO downloadXLSX end

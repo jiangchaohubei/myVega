@@ -1,0 +1,916 @@
+2017-10-16 09:48:40,247 authoritydb.py[line:288] INFO achieve loginCapcha start
+2017-10-16 09:48:40,250 authoritydb.py[line:243] INFO md5 start
+2017-10-16 09:48:40,250 authoritydb.py[line:246] INFO md5 end
+2017-10-16 09:48:40,262 authoritydb.py[line:311] INFO achieve bind_mobile
+2017-10-16 09:48:44,770 authoritydb.py[line:288] INFO achieve loginCapcha start
+2017-10-16 09:48:44,772 authoritydb.py[line:243] INFO md5 start
+2017-10-16 09:48:44,773 authoritydb.py[line:246] INFO md5 end
+2017-10-16 09:48:44,782 authoritydb.py[line:311] INFO achieve bind_mobile
+2017-10-16 09:48:51,341 authoritydb.py[line:288] INFO achieve loginCapcha start
+2017-10-16 09:48:51,342 authoritydb.py[line:243] INFO md5 start
+2017-10-16 09:48:51,342 authoritydb.py[line:246] INFO md5 end
+2017-10-16 09:48:51,352 authoritydb.py[line:311] INFO achieve bind_mobile
+2017-10-16 09:49:01,270 authoritydb.py[line:306] INFO achieve loginCapcha end
+2017-10-16 09:49:05,789 authoritydb.py[line:306] INFO achieve loginCapcha end
+2017-10-16 09:49:12,358 authoritydb.py[line:306] INFO achieve loginCapcha end
+2017-10-16 09:49:15,448 authoritydb.py[line:25] INFO login start
+2017-10-16 09:49:15,461 authoritydb.py[line:243] INFO md5 start
+2017-10-16 09:49:15,463 authoritydb.py[line:246] INFO md5 end
+2017-10-16 09:49:15,502 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-16 09:49:15,502 authoritydb.py[line:99] INFO login end
+2017-10-16 09:49:16,193 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 09:49:16,290 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 09:49:41,936 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 09:49:42,040 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 09:49:51,756 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 09:49:51,869 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 09:50:29,766 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 09:50:29,917 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 09:57:30,496 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 09:57:30,641 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 10:07:36,907 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 10:07:37,026 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 10:17:32,118 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 10:17:32,229 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 10:19:46,503 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 10:19:46,641 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 10:21:31,911 authoritydb.py[line:350] INFO selectUser start
+2017-10-16 10:21:31,933 authoritydb.py[line:402] INFO selectUser end
+2017-10-16 10:21:31,937 authoritydb.py[line:409] INFO selectRole start
+2017-10-16 10:21:31,941 authoritydb.py[line:452] INFO selectRole end
+2017-10-16 10:21:52,990 authoritydb.py[line:623] INFO parentPermission start
+2017-10-16 10:21:53,029 authoritydb.py[line:680] INFO [{"fields": {"url": "/app_tower/credentials/select", "name": "credentials_select"}, "model": "app_tower.permissionlist", "pk": 7}, {"fields": {"url": "/app_tower/group/select", "name": "group_select"}, "model": "app_tower.permissionlist", "pk": 8}, {"fields": {"url": "/app_tower/host/select", "name": "host_select"}, "model": "app_tower.permissionlist", "pk": 9}, {"fields": {"url": "/app_tower/job/select", "name": "jobTemplete_select"}, "model": "app_tower.permissionlist", "pk": 10}, {"fields": {"url": "/app_tower/jobs/select", "name": "jobs_select"}, "model": "app_tower.permissionlist", "pk": 11}, {"fields": {"url": "/app_tower/project/select", "name": "project_select"}, "model": "app_tower.permissionlist", "pk": 14}, {"fields": {"url": "/app_tower/credentials/add", "name": "credentials_add"}, "model": "app_tower.permissionlist", "pk": 43}, {"fields": {"url": "/app_tower/credentials/delete", "name": "credentials_delete"}, "model": "app_tower.permissionlist", "pk": 44}, {"fields": {"url": "/app_tower/credentials/update", "name": "credentials_update"}, "model": "app_tower.permissionlist", "pk": 45}, {"fields": {"url": "/app_tower/project/add", "name": "project_add"}, "model": "app_tower.permissionlist", "pk": 46}, {"fields": {"url": "/app_tower/project/delete", "name": "project_delete"}, "model": "app_tower.permissionlist", "pk": 47}, {"fields": {"url": "/app_tower/project/update", "name": "project_update"}, "model": "app_tower.permissionlist", "pk": 48}, {"fields": {"url": "/app_tower/group/add", "name": "group_add"}, "model": "app_tower.permissionlist", "pk": 23}, {"fields": {"url": "/app_tower/group/delete", "name": "group_delete"}, "model": "app_tower.permissionlist", "pk": 24}, {"fields": {"url": "/app_tower/group/update", "name": "group_update"}, "model": "app_tower.permissionlist", "pk": 25}, {"fields": {"url": "/app_tower/group/export", "name": "group_export"}, "model": "app_tower.permissionlist", "pk": 26}, {"fields": {"url": "/app_tower/group/create_backGroup", "name": "group_add_backGroup"}, "model": "app_tower.permissionlist", "pk": 27}, {"fields": {"url": "/app_tower/host/add", "name": "host_add"}, "model": "app_tower.permissionlist", "pk": 28}, {"fields": {"url": "/app_tower/host/delete", "name": "host_delete"}, "model": "app_tower.permissionlist", "pk": 29}, {"fields": {"url": "/app_tower/host/update", "name": "host_update"}, "model": "app_tower.permissionlist", "pk": 30}, {"fields": {"url": "/app_tower/job/add", "name": "jobTemplete_add"}, "model": "app_tower.permissionlist", "pk": 38}, {"fields": {"url": "/app_tower/job/save_run_job", "name": "jobTemplete_run_save"}, "model": "app_tower.permissionlist", "pk": 39}, {"fields": {"url": "/app_tower/job/run_job", "name": "jobTemplete_run"}, "model": "app_tower.permissionlist", "pk": 40}, {"fields": {"url": "/app_tower/job/delete", "name": "jobTemplete_delete"}, "model": "app_tower.permissionlist", "pk": 41}, {"fields": {"url": "/app_tower/job/update", "name": "jobTemplete_update"}, "model": "app_tower.permissionlist", "pk": 42}, {"fields": {"url": "/app_tower/jobs/delete", "name": "jobs_delete"}, "model": "app_tower.permissionlist", "pk": 18}, {"fields": {"url": "/app_tower/job/stop_job", "name": "jobs_stop"}, "model": "app_tower.permissionlist", "pk": 19}, {"fields": {"url": "/feedback/saveFeedBack", "name": "saveFeedBack"}, "model": "app_tower.permissionlist", "pk": 16}, {"fields": {"url": "/feedback/export/allFeedback", "name": "exportAllFeedback"}, "model": "app_tower.permissionlist", "pk": 17}, {"fields": {"url": "/app_tower/job/run_commands_changeSudoAuth", "name": "updateSudo"}, "model": "app_tower.permissionlist", "pk": 34}, {"fields": {"url": "/app_tower/job/run_commands_searchLog", "name": "searchLog"}, "model": "app_tower.permissionlist", "pk": 35}, {"fields": {"url": "/app_tower/job/run_commands_copyFile", "name": "copyFile"}, "model": "app_tower.permissionlist", "pk": 36}, {"fields": {"url": "/app_tower/job/run_commands_searchSN", "name": "searchSN"}, "model": "app_tower.permissionlist", "pk": 37}, {"fields": {"url": "/app_tower/job/run_commands_changeProcess", "name": "changeProcess"}, "model": "app_tower.permissionlist", "pk": 33}, {"fields": {"url": "/app_tower/job/run_commands_searchProcess", "name": "searchProcess"}, "model": "app_tower.permissionlist", "pk": 32}, {"fields": {"url": "/app_tower/job/run_commands_runSH", "name": "runSH"}, "model": "app_tower.permissionlist", "pk": 31}, {"fields": {"url": "/app_tower/playbook/select", "name": "playbook_select"}, "model": "app_tower.permissionlist", "pk": 54}, {"fields": {"url": "/app_tower/playbook/add", "name": "playbook_add"}, "model": "app_tower.permissionlist", "pk": 55}, {"fields": {"url": "/app_tower/playbook/delete", "name": "playbook_delete"}, "model": "app_tower.permissionlist", "pk": 56}, {"fields": {"url": "/app_tower/playbook/update", "name": "playbook_update"}, "model": "app_tower.permissionlist", "pk": 57}]
+2017-10-16 10:21:53,042 authoritydb.py[line:681] INFO [{'url': '/app_tower/credentials/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x99\xbb\xe5\xbd\x95\xe5\x87\xad\xe8\xaf\x81', 'name': 'credentials_select'}, {'url': '/app_tower/group/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba\xe7\xbb\x84', 'name': 'group_select'}, {'url': '/app_tower/host/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba', 'name': 'host_select'}, {'url': '/app_tower/job/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1\xe6\xa8\xa1\xe6\x9d\xbf', 'name': 'jobTemplete_select'}, {'url': '/app_tower/jobs/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1', 'name': 'jobs_select'}, {'url': '/authority/select/user', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x94\xa8\xe6\x88\xb7', 'name': 'user_select'}, {'url': '/authority/select/role', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe8\xa7\x92\xe8\x89\xb2', 'name': 'role_select'}, {'url': '/app_tower/project/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe9\xa1\xb9\xe7\x9b\xae\xe7\xbb\x84', 'name': 'project_select'}, {'url': '/app_tower/playbook/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2playbook', 'name': 'playbook_select'}]
+2017-10-16 10:21:53,042 authoritydb.py[line:684] INFO {'url': '/app_tower/credentials/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x99\xbb\xe5\xbd\x95\xe5\x87\xad\xe8\xaf\x81', 'name': 'credentials_select'}
+2017-10-16 10:21:53,043 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,049 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,055 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,056 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,065 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,066 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,068 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,069 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,071 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,071 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,071 authoritydb.py[line:684] INFO {'url': '/app_tower/group/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba\xe7\xbb\x84', 'name': 'group_select'}
+2017-10-16 10:21:53,071 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,072 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,075 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,076 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,076 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,076 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,076 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,076 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,078 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,079 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,079 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,079 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,079 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,079 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,081 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,081 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,081 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,081 authoritydb.py[line:684] INFO {'url': '/app_tower/host/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba', 'name': 'host_select'}
+2017-10-16 10:21:53,081 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,082 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,084 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,084 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,084 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,084 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,084 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,085 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,088 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,089 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,089 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,096 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,096 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,096 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,096 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,098 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,098 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,098 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,098 authoritydb.py[line:684] INFO {'url': '/app_tower/job/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1\xe6\xa8\xa1\xe6\x9d\xbf', 'name': 'jobTemplete_select'}
+2017-10-16 10:21:53,098 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,098 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,099 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,099 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,099 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,099 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,101 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,102 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,102 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,102 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,102 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,102 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,104 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,104 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,104 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,104 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,104 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,107 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,107 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,107 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,108 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,109 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,109 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,111 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,111 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,111 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,111 authoritydb.py[line:684] INFO {'url': '/app_tower/jobs/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1', 'name': 'jobs_select'}
+2017-10-16 10:21:53,111 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,112 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,112 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,112 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,112 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,114 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,114 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,114 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,114 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,115 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,117 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,117 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,117 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,117 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,117 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,118 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,119 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,119 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,119 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,119 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,119 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,122 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,125 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,125 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,128 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,130 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,131 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,131 authoritydb.py[line:684] INFO {'url': '/authority/select/user', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x94\xa8\xe6\x88\xb7', 'name': 'user_select'}
+2017-10-16 10:21:53,131 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,131 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,131 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,131 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,132 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,132 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,134 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,135 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,135 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,135 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,135 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,135 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,137 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,137 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,137 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,141 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,142 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,142 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,144 authoritydb.py[line:684] INFO {'url': '/authority/select/role', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe8\xa7\x92\xe8\x89\xb2', 'name': 'role_select'}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,144 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,145 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,145 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,145 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,145 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,145 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,147 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,147 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,147 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,147 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,147 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,148 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,150 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,151 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,153 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,153 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,153 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,153 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,153 authoritydb.py[line:684] INFO {'url': '/app_tower/project/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe9\xa1\xb9\xe7\x9b\xae\xe7\xbb\x84', 'name': 'project_select'}
+2017-10-16 10:21:53,154 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,154 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,158 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,158 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,158 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,160 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,160 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,160 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,160 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,161 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,161 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,161 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,161 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,161 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,163 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,163 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,163 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,163 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,164 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,165 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,165 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,165 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,165 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,167 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,167 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,167 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,167 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,167 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,168 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,168 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,168 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,170 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,170 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/select', 'cname': '\xe6\x9f\xa5\xe8\xaf\xa2playbook', 'name': 'playbook_select'}
+2017-10-16 10:21:53,173 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:21:53,174 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:21:53,176 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:21:53,176 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:21:53,176 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:21:53,177 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:21:53,177 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:21:53,177 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:21:53,177 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:21:53,178 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:21:53,178 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:21:53,180 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:21:53,181 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:21:53,181 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:21:53,181 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:21:53,181 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:21:53,181 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:21:53,183 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:21:53,183 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:21:53,183 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:21:53,184 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:21:53,187 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:21:53,191 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:21:53,191 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:21:53,191 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:21:53,193 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:21:53,193 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:21:53,193 authoritydb.py[line:695] INFO [{'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x99\xbb\xe5\xbd\x95\xe5\x87\xad\xe8\xaf\x81', 'name': 'credentials_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba\xe7\xbb\x84', 'name': 'group_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xb8\xbb\xe6\x9c\xba', 'name': 'host_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1\xe6\xa8\xa1\xe6\x9d\xbf', 'name': 'jobTemplete_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe4\xbb\xbb\xe5\x8a\xa1', 'name': 'jobs_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe7\x94\xa8\xe6\x88\xb7', 'name': 'user_select'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe8\xa7\x92\xe8\x89\xb2', 'name': 'role_select'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2\xe9\xa1\xb9\xe7\x9b\xae\xe7\xbb\x84', 'name': 'project_select', 'isOwn': 'true'}, {'cname': '\xe6\x9f\xa5\xe8\xaf\xa2playbook', 'name': 'playbook_select', 'isOwn': 'true'}]
+2017-10-16 10:21:53,194 authoritydb.py[line:696] INFO parentPermission end
+2017-10-16 10:22:01,460 authoritydb.py[line:623] INFO parentPermission start
+2017-10-16 10:22:01,484 authoritydb.py[line:680] INFO [{"fields": {"url": "/app_tower/credentials/select", "name": "credentials_select"}, "model": "app_tower.permissionlist", "pk": 7}, {"fields": {"url": "/app_tower/group/select", "name": "group_select"}, "model": "app_tower.permissionlist", "pk": 8}, {"fields": {"url": "/app_tower/host/select", "name": "host_select"}, "model": "app_tower.permissionlist", "pk": 9}, {"fields": {"url": "/app_tower/job/select", "name": "jobTemplete_select"}, "model": "app_tower.permissionlist", "pk": 10}, {"fields": {"url": "/app_tower/jobs/select", "name": "jobs_select"}, "model": "app_tower.permissionlist", "pk": 11}, {"fields": {"url": "/app_tower/project/select", "name": "project_select"}, "model": "app_tower.permissionlist", "pk": 14}, {"fields": {"url": "/app_tower/credentials/add", "name": "credentials_add"}, "model": "app_tower.permissionlist", "pk": 43}, {"fields": {"url": "/app_tower/credentials/delete", "name": "credentials_delete"}, "model": "app_tower.permissionlist", "pk": 44}, {"fields": {"url": "/app_tower/credentials/update", "name": "credentials_update"}, "model": "app_tower.permissionlist", "pk": 45}, {"fields": {"url": "/app_tower/project/add", "name": "project_add"}, "model": "app_tower.permissionlist", "pk": 46}, {"fields": {"url": "/app_tower/project/delete", "name": "project_delete"}, "model": "app_tower.permissionlist", "pk": 47}, {"fields": {"url": "/app_tower/project/update", "name": "project_update"}, "model": "app_tower.permissionlist", "pk": 48}, {"fields": {"url": "/app_tower/group/add", "name": "group_add"}, "model": "app_tower.permissionlist", "pk": 23}, {"fields": {"url": "/app_tower/group/delete", "name": "group_delete"}, "model": "app_tower.permissionlist", "pk": 24}, {"fields": {"url": "/app_tower/group/update", "name": "group_update"}, "model": "app_tower.permissionlist", "pk": 25}, {"fields": {"url": "/app_tower/group/export", "name": "group_export"}, "model": "app_tower.permissionlist", "pk": 26}, {"fields": {"url": "/app_tower/group/create_backGroup", "name": "group_add_backGroup"}, "model": "app_tower.permissionlist", "pk": 27}, {"fields": {"url": "/app_tower/host/add", "name": "host_add"}, "model": "app_tower.permissionlist", "pk": 28}, {"fields": {"url": "/app_tower/host/delete", "name": "host_delete"}, "model": "app_tower.permissionlist", "pk": 29}, {"fields": {"url": "/app_tower/host/update", "name": "host_update"}, "model": "app_tower.permissionlist", "pk": 30}, {"fields": {"url": "/app_tower/job/add", "name": "jobTemplete_add"}, "model": "app_tower.permissionlist", "pk": 38}, {"fields": {"url": "/app_tower/job/save_run_job", "name": "jobTemplete_run_save"}, "model": "app_tower.permissionlist", "pk": 39}, {"fields": {"url": "/app_tower/job/run_job", "name": "jobTemplete_run"}, "model": "app_tower.permissionlist", "pk": 40}, {"fields": {"url": "/app_tower/job/delete", "name": "jobTemplete_delete"}, "model": "app_tower.permissionlist", "pk": 41}, {"fields": {"url": "/app_tower/job/update", "name": "jobTemplete_update"}, "model": "app_tower.permissionlist", "pk": 42}, {"fields": {"url": "/app_tower/jobs/delete", "name": "jobs_delete"}, "model": "app_tower.permissionlist", "pk": 18}, {"fields": {"url": "/app_tower/job/stop_job", "name": "jobs_stop"}, "model": "app_tower.permissionlist", "pk": 19}, {"fields": {"url": "/feedback/saveFeedBack", "name": "saveFeedBack"}, "model": "app_tower.permissionlist", "pk": 16}, {"fields": {"url": "/feedback/export/allFeedback", "name": "exportAllFeedback"}, "model": "app_tower.permissionlist", "pk": 17}, {"fields": {"url": "/app_tower/job/run_commands_changeSudoAuth", "name": "updateSudo"}, "model": "app_tower.permissionlist", "pk": 34}, {"fields": {"url": "/app_tower/job/run_commands_searchLog", "name": "searchLog"}, "model": "app_tower.permissionlist", "pk": 35}, {"fields": {"url": "/app_tower/job/run_commands_copyFile", "name": "copyFile"}, "model": "app_tower.permissionlist", "pk": 36}, {"fields": {"url": "/app_tower/job/run_commands_searchSN", "name": "searchSN"}, "model": "app_tower.permissionlist", "pk": 37}, {"fields": {"url": "/app_tower/job/run_commands_changeProcess", "name": "changeProcess"}, "model": "app_tower.permissionlist", "pk": 33}, {"fields": {"url": "/app_tower/job/run_commands_searchProcess", "name": "searchProcess"}, "model": "app_tower.permissionlist", "pk": 32}, {"fields": {"url": "/app_tower/job/run_commands_runSH", "name": "runSH"}, "model": "app_tower.permissionlist", "pk": 31}, {"fields": {"url": "/app_tower/playbook/select", "name": "playbook_select"}, "model": "app_tower.permissionlist", "pk": 54}, {"fields": {"url": "/app_tower/playbook/add", "name": "playbook_add"}, "model": "app_tower.permissionlist", "pk": 55}, {"fields": {"url": "/app_tower/playbook/delete", "name": "playbook_delete"}, "model": "app_tower.permissionlist", "pk": 56}, {"fields": {"url": "/app_tower/playbook/update", "name": "playbook_update"}, "model": "app_tower.permissionlist", "pk": 57}]
+2017-10-16 10:22:01,484 authoritydb.py[line:681] INFO [{'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}, {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}, {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}]
+2017-10-16 10:22:01,486 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:01,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:01,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:01,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:01,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:01,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:01,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:01,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:01,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:01,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:01,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:01,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:01,490 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:01,492 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:01,492 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:01,492 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:01,492 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:01,492 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:01,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:01,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:01,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:01,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:01,494 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:01,494 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:01,494 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:01,494 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}
+2017-10-16 10:22:01,494 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:01,494 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:01,496 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:01,497 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:01,497 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:01,497 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:01,497 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:01,497 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:01,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:01,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:01,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:01,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:01,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:01,500 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:01,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:01,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:01,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:01,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:01,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:01,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:01,506 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:01,512 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:01,513 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:01,515 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:01,515 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:01,515 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}
+2017-10-16 10:22:01,515 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:01,516 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:01,516 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:01,516 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:01,516 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:01,517 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:01,517 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:01,519 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:01,519 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:01,519 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:01,525 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:01,526 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:01,526 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:01,526 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:01,526 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:01,532 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:01,533 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:01,533 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:01,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:01,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:01,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:01,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:01,549 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:01,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:01,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:01,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:01,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:01,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:01,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:01,553 authoritydb.py[line:695] INFO [{'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add', 'isOwn': 'true'}, {'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete', 'isOwn': 'true'}, {'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update', 'isOwn': 'true'}]
+2017-10-16 10:22:01,562 authoritydb.py[line:696] INFO parentPermission end
+2017-10-16 10:22:04,237 authoritydb.py[line:623] INFO parentPermission start
+2017-10-16 10:22:04,243 authoritydb.py[line:680] INFO [{"fields": {"url": "/app_tower/credentials/select", "name": "credentials_select"}, "model": "app_tower.permissionlist", "pk": 7}, {"fields": {"url": "/app_tower/group/select", "name": "group_select"}, "model": "app_tower.permissionlist", "pk": 8}, {"fields": {"url": "/app_tower/host/select", "name": "host_select"}, "model": "app_tower.permissionlist", "pk": 9}, {"fields": {"url": "/app_tower/job/select", "name": "jobTemplete_select"}, "model": "app_tower.permissionlist", "pk": 10}, {"fields": {"url": "/app_tower/jobs/select", "name": "jobs_select"}, "model": "app_tower.permissionlist", "pk": 11}, {"fields": {"url": "/authority/select/user", "name": "user_select"}, "model": "app_tower.permissionlist", "pk": 12}, {"fields": {"url": "/authority/select/role", "name": "role_select"}, "model": "app_tower.permissionlist", "pk": 13}, {"fields": {"url": "/app_tower/project/select", "name": "project_select"}, "model": "app_tower.permissionlist", "pk": 14}, {"fields": {"url": "/app_tower/playbook/select", "name": "playbook_select"}, "model": "app_tower.permissionlist", "pk": 54}]
+2017-10-16 10:22:04,244 authoritydb.py[line:681] INFO [{'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}, {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}, {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}]
+2017-10-16 10:22:04,244 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}
+2017-10-16 10:22:04,244 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:04,244 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:04,246 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:04,246 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:04,246 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:04,247 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:04,247 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:04,247 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:04,247 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:04,247 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}
+2017-10-16 10:22:04,249 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:04,249 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:04,249 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:04,249 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:04,249 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:04,250 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:04,250 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:04,252 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:04,253 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:04,262 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:04,263 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:04,263 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:04,263 authoritydb.py[line:695] INFO [{'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}, {'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}, {'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}]
+2017-10-16 10:22:04,263 authoritydb.py[line:696] INFO parentPermission end
+2017-10-16 10:22:08,506 authoritydb.py[line:623] INFO parentPermission start
+2017-10-16 10:22:08,516 authoritydb.py[line:680] INFO [{"fields": {"url": "/authority/save/user", "name": "user_add"}, "model": "app_tower.permissionlist", "pk": 1}, {"fields": {"url": "/authority/update/user", "name": "user_update"}, "model": "app_tower.permissionlist", "pk": 2}, {"fields": {"url": "/authority/delete/user", "name": "user_delete"}, "model": "app_tower.permissionlist", "pk": 3}, {"fields": {"url": "/authority/add/role", "name": "role_add"}, "model": "app_tower.permissionlist", "pk": 4}, {"fields": {"url": "/authority/delete/role", "name": "role_delete"}, "model": "app_tower.permissionlist", "pk": 5}, {"fields": {"url": "/authority/update/role_permission", "name": "role_update"}, "model": "app_tower.permissionlist", "pk": 6}, {"fields": {"url": "/app_tower/credentials/select", "name": "credentials_select"}, "model": "app_tower.permissionlist", "pk": 7}, {"fields": {"url": "/app_tower/group/select", "name": "group_select"}, "model": "app_tower.permissionlist", "pk": 8}, {"fields": {"url": "/app_tower/host/select", "name": "host_select"}, "model": "app_tower.permissionlist", "pk": 9}, {"fields": {"url": "/app_tower/job/select", "name": "jobTemplete_select"}, "model": "app_tower.permissionlist", "pk": 10}, {"fields": {"url": "/app_tower/jobs/select", "name": "jobs_select"}, "model": "app_tower.permissionlist", "pk": 11}, {"fields": {"url": "/authority/select/user", "name": "user_select"}, "model": "app_tower.permissionlist", "pk": 12}, {"fields": {"url": "/authority/select/role", "name": "role_select"}, "model": "app_tower.permissionlist", "pk": 13}, {"fields": {"url": "/app_tower/project/select", "name": "project_select"}, "model": "app_tower.permissionlist", "pk": 14}, {"fields": {"url": "/feedback/saveFeedBack", "name": "saveFeedBack"}, "model": "app_tower.permissionlist", "pk": 16}, {"fields": {"url": "/feedback/export/allFeedback", "name": "exportAllFeedback"}, "model": "app_tower.permissionlist", "pk": 17}, {"fields": {"url": "/app_tower/jobs/delete", "name": "jobs_delete"}, "model": "app_tower.permissionlist", "pk": 18}, {"fields": {"url": "/app_tower/job/stop_job", "name": "jobs_stop"}, "model": "app_tower.permissionlist", "pk": 19}, {"fields": {"url": "/app_tower/group/add", "name": "group_add"}, "model": "app_tower.permissionlist", "pk": 23}, {"fields": {"url": "/app_tower/group/delete", "name": "group_delete"}, "model": "app_tower.permissionlist", "pk": 24}, {"fields": {"url": "/app_tower/group/update", "name": "group_update"}, "model": "app_tower.permissionlist", "pk": 25}, {"fields": {"url": "/app_tower/group/export", "name": "group_export"}, "model": "app_tower.permissionlist", "pk": 26}, {"fields": {"url": "/app_tower/group/create_backGroup", "name": "group_add_backGroup"}, "model": "app_tower.permissionlist", "pk": 27}, {"fields": {"url": "/app_tower/host/add", "name": "host_add"}, "model": "app_tower.permissionlist", "pk": 28}, {"fields": {"url": "/app_tower/host/delete", "name": "host_delete"}, "model": "app_tower.permissionlist", "pk": 29}, {"fields": {"url": "/app_tower/host/update", "name": "host_update"}, "model": "app_tower.permissionlist", "pk": 30}, {"fields": {"url": "/app_tower/job/run_commands_runSH", "name": "runSH"}, "model": "app_tower.permissionlist", "pk": 31}, {"fields": {"url": "/app_tower/job/run_commands_searchProcess", "name": "searchProcess"}, "model": "app_tower.permissionlist", "pk": 32}, {"fields": {"url": "/app_tower/job/run_commands_changeProcess", "name": "changeProcess"}, "model": "app_tower.permissionlist", "pk": 33}, {"fields": {"url": "/app_tower/job/run_commands_changeSudoAuth", "name": "updateSudo"}, "model": "app_tower.permissionlist", "pk": 34}, {"fields": {"url": "/app_tower/job/run_commands_searchLog", "name": "searchLog"}, "model": "app_tower.permissionlist", "pk": 35}, {"fields": {"url": "/app_tower/job/run_commands_copyFile", "name": "copyFile"}, "model": "app_tower.permissionlist", "pk": 36}, {"fields": {"url": "/app_tower/job/run_commands_searchSN", "name": "searchSN"}, "model": "app_tower.permissionlist", "pk": 37}, {"fields": {"url": "/app_tower/job/add", "name": "jobTemplete_add"}, "model": "app_tower.permissionlist", "pk": 38}, {"fields": {"url": "/app_tower/job/save_run_job", "name": "jobTemplete_run_save"}, "model": "app_tower.permissionlist", "pk": 39}, {"fields": {"url": "/app_tower/job/run_job", "name": "jobTemplete_run"}, "model": "app_tower.permissionlist", "pk": 40}, {"fields": {"url": "/app_tower/job/delete", "name": "jobTemplete_delete"}, "model": "app_tower.permissionlist", "pk": 41}, {"fields": {"url": "/app_tower/job/update", "name": "jobTemplete_update"}, "model": "app_tower.permissionlist", "pk": 42}, {"fields": {"url": "/app_tower/credentials/add", "name": "credentials_add"}, "model": "app_tower.permissionlist", "pk": 43}, {"fields": {"url": "/app_tower/credentials/delete", "name": "credentials_delete"}, "model": "app_tower.permissionlist", "pk": 44}, {"fields": {"url": "/app_tower/credentials/update", "name": "credentials_update"}, "model": "app_tower.permissionlist", "pk": 45}, {"fields": {"url": "/app_tower/project/add", "name": "project_add"}, "model": "app_tower.permissionlist", "pk": 46}, {"fields": {"url": "/app_tower/project/delete", "name": "project_delete"}, "model": "app_tower.permissionlist", "pk": 47}, {"fields": {"url": "/app_tower/project/update", "name": "project_update"}, "model": "app_tower.permissionlist", "pk": 48}, {"fields": {"url": "/app_tower/playbook/select", "name": "playbook_select"}, "model": "app_tower.permissionlist", "pk": 54}, {"fields": {"url": "/app_tower/playbook/add", "name": "playbook_add"}, "model": "app_tower.permissionlist", "pk": 55}, {"fields": {"url": "/app_tower/playbook/delete", "name": "playbook_delete"}, "model": "app_tower.permissionlist", "pk": 56}, {"fields": {"url": "/app_tower/playbook/update", "name": "playbook_update"}, "model": "app_tower.permissionlist", "pk": 57}]
+2017-10-16 10:22:08,528 authoritydb.py[line:681] INFO [{'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}, {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}, {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}]
+2017-10-16 10:22:08,528 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}
+2017-10-16 10:22:08,532 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:08,533 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:08,533 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:08,533 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:08,533 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:08,533 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:08,535 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:08,536 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:08,536 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:08,536 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:08,536 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:08,536 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:08,538 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:08,538 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:08,538 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:08,538 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:08,538 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:08,539 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:08,540 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:08,540 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:08,540 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:08,540 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:08,542 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:08,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:08,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:08,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:08,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:08,543 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:08,545 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:08,545 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}
+2017-10-16 10:22:08,545 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:08,546 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:08,548 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:08,548 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:08,548 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:08,549 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:08,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:08,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:08,551 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:08,552 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:08,553 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:08,555 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:08,555 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:08,555 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:08,555 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:08,556 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:08,556 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:08,556 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:08,558 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:08,558 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:08,558 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:08,559 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:08,559 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:08,561 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:08,561 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:08,562 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:08,563 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:08,563 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:08,563 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:08,563 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:08,565 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:08,565 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:08,566 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:08,566 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:08,566 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:08,575 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:08,575 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:08,575 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:08,575 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:08,575 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:08,578 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:08,578 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:08,578 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:08,578 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:08,578 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:08,579 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:08,579 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:08,579 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:08,581 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:08,581 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:08,581 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:08,581 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:08,581 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:08,582 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:08,582 authoritydb.py[line:695] INFO [{'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add', 'isOwn': 'true'}, {'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete', 'isOwn': 'true'}, {'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update', 'isOwn': 'true'}]
+2017-10-16 10:22:08,582 authoritydb.py[line:696] INFO parentPermission end
+2017-10-16 10:22:10,387 authoritydb.py[line:623] INFO parentPermission start
+2017-10-16 10:22:10,398 authoritydb.py[line:680] INFO [{"fields": {"url": "/authority/save/user", "name": "user_add"}, "model": "app_tower.permissionlist", "pk": 1}, {"fields": {"url": "/authority/update/user", "name": "user_update"}, "model": "app_tower.permissionlist", "pk": 2}, {"fields": {"url": "/authority/delete/user", "name": "user_delete"}, "model": "app_tower.permissionlist", "pk": 3}, {"fields": {"url": "/authority/add/role", "name": "role_add"}, "model": "app_tower.permissionlist", "pk": 4}, {"fields": {"url": "/authority/delete/role", "name": "role_delete"}, "model": "app_tower.permissionlist", "pk": 5}, {"fields": {"url": "/authority/update/role_permission", "name": "role_update"}, "model": "app_tower.permissionlist", "pk": 6}, {"fields": {"url": "/app_tower/credentials/select", "name": "credentials_select"}, "model": "app_tower.permissionlist", "pk": 7}, {"fields": {"url": "/app_tower/group/select", "name": "group_select"}, "model": "app_tower.permissionlist", "pk": 8}, {"fields": {"url": "/app_tower/host/select", "name": "host_select"}, "model": "app_tower.permissionlist", "pk": 9}, {"fields": {"url": "/app_tower/job/select", "name": "jobTemplete_select"}, "model": "app_tower.permissionlist", "pk": 10}, {"fields": {"url": "/app_tower/jobs/select", "name": "jobs_select"}, "model": "app_tower.permissionlist", "pk": 11}, {"fields": {"url": "/authority/select/user", "name": "user_select"}, "model": "app_tower.permissionlist", "pk": 12}, {"fields": {"url": "/authority/select/role", "name": "role_select"}, "model": "app_tower.permissionlist", "pk": 13}, {"fields": {"url": "/app_tower/project/select", "name": "project_select"}, "model": "app_tower.permissionlist", "pk": 14}, {"fields": {"url": "/feedback/saveFeedBack", "name": "saveFeedBack"}, "model": "app_tower.permissionlist", "pk": 16}, {"fields": {"url": "/feedback/export/allFeedback", "name": "exportAllFeedback"}, "model": "app_tower.permissionlist", "pk": 17}, {"fields": {"url": "/app_tower/jobs/delete", "name": "jobs_delete"}, "model": "app_tower.permissionlist", "pk": 18}, {"fields": {"url": "/app_tower/job/stop_job", "name": "jobs_stop"}, "model": "app_tower.permissionlist", "pk": 19}, {"fields": {"url": "/app_tower/group/add", "name": "group_add"}, "model": "app_tower.permissionlist", "pk": 23}, {"fields": {"url": "/app_tower/group/delete", "name": "group_delete"}, "model": "app_tower.permissionlist", "pk": 24}, {"fields": {"url": "/app_tower/group/update", "name": "group_update"}, "model": "app_tower.permissionlist", "pk": 25}, {"fields": {"url": "/app_tower/group/export", "name": "group_export"}, "model": "app_tower.permissionlist", "pk": 26}, {"fields": {"url": "/app_tower/group/create_backGroup", "name": "group_add_backGroup"}, "model": "app_tower.permissionlist", "pk": 27}, {"fields": {"url": "/app_tower/host/add", "name": "host_add"}, "model": "app_tower.permissionlist", "pk": 28}, {"fields": {"url": "/app_tower/host/delete", "name": "host_delete"}, "model": "app_tower.permissionlist", "pk": 29}, {"fields": {"url": "/app_tower/host/update", "name": "host_update"}, "model": "app_tower.permissionlist", "pk": 30}, {"fields": {"url": "/app_tower/job/run_commands_runSH", "name": "runSH"}, "model": "app_tower.permissionlist", "pk": 31}, {"fields": {"url": "/app_tower/job/run_commands_searchProcess", "name": "searchProcess"}, "model": "app_tower.permissionlist", "pk": 32}, {"fields": {"url": "/app_tower/job/run_commands_changeProcess", "name": "changeProcess"}, "model": "app_tower.permissionlist", "pk": 33}, {"fields": {"url": "/app_tower/job/run_commands_changeSudoAuth", "name": "updateSudo"}, "model": "app_tower.permissionlist", "pk": 34}, {"fields": {"url": "/app_tower/job/run_commands_searchLog", "name": "searchLog"}, "model": "app_tower.permissionlist", "pk": 35}, {"fields": {"url": "/app_tower/job/run_commands_copyFile", "name": "copyFile"}, "model": "app_tower.permissionlist", "pk": 36}, {"fields": {"url": "/app_tower/job/run_commands_searchSN", "name": "searchSN"}, "model": "app_tower.permissionlist", "pk": 37}, {"fields": {"url": "/app_tower/job/add", "name": "jobTemplete_add"}, "model": "app_tower.permissionlist", "pk": 38}, {"fields": {"url": "/app_tower/job/save_run_job", "name": "jobTemplete_run_save"}, "model": "app_tower.permissionlist", "pk": 39}, {"fields": {"url": "/app_tower/job/run_job", "name": "jobTemplete_run"}, "model": "app_tower.permissionlist", "pk": 40}, {"fields": {"url": "/app_tower/job/delete", "name": "jobTemplete_delete"}, "model": "app_tower.permissionlist", "pk": 41}, {"fields": {"url": "/app_tower/job/update", "name": "jobTemplete_update"}, "model": "app_tower.permissionlist", "pk": 42}, {"fields": {"url": "/app_tower/credentials/add", "name": "credentials_add"}, "model": "app_tower.permissionlist", "pk": 43}, {"fields": {"url": "/app_tower/credentials/delete", "name": "credentials_delete"}, "model": "app_tower.permissionlist", "pk": 44}, {"fields": {"url": "/app_tower/credentials/update", "name": "credentials_update"}, "model": "app_tower.permissionlist", "pk": 45}, {"fields": {"url": "/app_tower/project/add", "name": "project_add"}, "model": "app_tower.permissionlist", "pk": 46}, {"fields": {"url": "/app_tower/project/delete", "name": "project_delete"}, "model": "app_tower.permissionlist", "pk": 47}, {"fields": {"url": "/app_tower/project/update", "name": "project_update"}, "model": "app_tower.permissionlist", "pk": 48}, {"fields": {"url": "/app_tower/playbook/select", "name": "playbook_select"}, "model": "app_tower.permissionlist", "pk": 54}, {"fields": {"url": "/app_tower/playbook/add", "name": "playbook_add"}, "model": "app_tower.permissionlist", "pk": 55}, {"fields": {"url": "/app_tower/playbook/delete", "name": "playbook_delete"}, "model": "app_tower.permissionlist", "pk": 56}, {"fields": {"url": "/app_tower/playbook/update", "name": "playbook_update"}, "model": "app_tower.permissionlist", "pk": 57}]
+2017-10-16 10:22:10,404 authoritydb.py[line:681] INFO [{'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}, {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}, {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}]
+2017-10-16 10:22:10,404 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/add', 'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add'}
+2017-10-16 10:22:10,404 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:10,404 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:10,410 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:10,417 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:10,417 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:10,417 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:10,420 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:10,421 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:10,421 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:10,421 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:10,421 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:10,427 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:10,427 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:10,428 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:10,428 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:10,428 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:10,430 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:10,431 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:10,431 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:10,431 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:10,433 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:10,433 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:10,433 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:10,434 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:10,434 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:10,434 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:10,436 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:10,436 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:10,436 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:10,436 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:10,437 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:10,437 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:10,437 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:10,437 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:10,437 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:10,448 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:10,451 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:10,451 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:10,453 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:10,460 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/delete', 'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete'}
+2017-10-16 10:22:10,461 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:10,463 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:10,463 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:10,463 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:10,464 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:10,464 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:10,466 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:10,466 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:10,466 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:10,467 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:10,467 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:10,467 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:10,467 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:10,467 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:10,469 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:10,469 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:10,469 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:10,469 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:10,469 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:10,470 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:10,470 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:10,480 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:10,483 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:10,484 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:10,486 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:10,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:10,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:10,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:10,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:10,487 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:10,489 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:10,489 authoritydb.py[line:684] INFO {'url': '/app_tower/playbook/update', 'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update'}
+2017-10-16 10:22:10,489 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/save/user', 'name': 'user_add'}, 'model': 'app_tower.permissionlist', 'pk': 1}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/user', 'name': 'user_update'}, 'model': 'app_tower.permissionlist', 'pk': 2}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/user', 'name': 'user_delete'}, 'model': 'app_tower.permissionlist', 'pk': 3}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/add/role', 'name': 'role_add'}, 'model': 'app_tower.permissionlist', 'pk': 4}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/delete/role', 'name': 'role_delete'}, 'model': 'app_tower.permissionlist', 'pk': 5}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/update/role_permission', 'name': 'role_update'}, 'model': 'app_tower.permissionlist', 'pk': 6}
+2017-10-16 10:22:10,490 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/select', 'name': 'credentials_select'}, 'model': 'app_tower.permissionlist', 'pk': 7}
+2017-10-16 10:22:10,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/select', 'name': 'group_select'}, 'model': 'app_tower.permissionlist', 'pk': 8}
+2017-10-16 10:22:10,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/select', 'name': 'host_select'}, 'model': 'app_tower.permissionlist', 'pk': 9}
+2017-10-16 10:22:10,493 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/select', 'name': 'jobTemplete_select'}, 'model': 'app_tower.permissionlist', 'pk': 10}
+2017-10-16 10:22:10,499 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/select', 'name': 'jobs_select'}, 'model': 'app_tower.permissionlist', 'pk': 11}
+2017-10-16 10:22:10,499 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/user', 'name': 'user_select'}, 'model': 'app_tower.permissionlist', 'pk': 12}
+2017-10-16 10:22:10,499 authoritydb.py[line:686] INFO {'fields': {'url': '/authority/select/role', 'name': 'role_select'}, 'model': 'app_tower.permissionlist', 'pk': 13}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/select', 'name': 'project_select'}, 'model': 'app_tower.permissionlist', 'pk': 14}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/saveFeedBack', 'name': 'saveFeedBack'}, 'model': 'app_tower.permissionlist', 'pk': 16}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/feedback/export/allFeedback', 'name': 'exportAllFeedback'}, 'model': 'app_tower.permissionlist', 'pk': 17}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/jobs/delete', 'name': 'jobs_delete'}, 'model': 'app_tower.permissionlist', 'pk': 18}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/stop_job', 'name': 'jobs_stop'}, 'model': 'app_tower.permissionlist', 'pk': 19}
+2017-10-16 10:22:10,500 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/add', 'name': 'group_add'}, 'model': 'app_tower.permissionlist', 'pk': 23}
+2017-10-16 10:22:10,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/delete', 'name': 'group_delete'}, 'model': 'app_tower.permissionlist', 'pk': 24}
+2017-10-16 10:22:10,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/update', 'name': 'group_update'}, 'model': 'app_tower.permissionlist', 'pk': 25}
+2017-10-16 10:22:10,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/export', 'name': 'group_export'}, 'model': 'app_tower.permissionlist', 'pk': 26}
+2017-10-16 10:22:10,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/group/create_backGroup', 'name': 'group_add_backGroup'}, 'model': 'app_tower.permissionlist', 'pk': 27}
+2017-10-16 10:22:10,502 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/add', 'name': 'host_add'}, 'model': 'app_tower.permissionlist', 'pk': 28}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/delete', 'name': 'host_delete'}, 'model': 'app_tower.permissionlist', 'pk': 29}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/host/update', 'name': 'host_update'}, 'model': 'app_tower.permissionlist', 'pk': 30}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_runSH', 'name': 'runSH'}, 'model': 'app_tower.permissionlist', 'pk': 31}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchProcess', 'name': 'searchProcess'}, 'model': 'app_tower.permissionlist', 'pk': 32}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeProcess', 'name': 'changeProcess'}, 'model': 'app_tower.permissionlist', 'pk': 33}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_changeSudoAuth', 'name': 'updateSudo'}, 'model': 'app_tower.permissionlist', 'pk': 34}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchLog', 'name': 'searchLog'}, 'model': 'app_tower.permissionlist', 'pk': 35}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_copyFile', 'name': 'copyFile'}, 'model': 'app_tower.permissionlist', 'pk': 36}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_commands_searchSN', 'name': 'searchSN'}, 'model': 'app_tower.permissionlist', 'pk': 37}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/add', 'name': 'jobTemplete_add'}, 'model': 'app_tower.permissionlist', 'pk': 38}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/save_run_job', 'name': 'jobTemplete_run_save'}, 'model': 'app_tower.permissionlist', 'pk': 39}
+2017-10-16 10:22:10,503 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/run_job', 'name': 'jobTemplete_run'}, 'model': 'app_tower.permissionlist', 'pk': 40}
+2017-10-16 10:22:10,506 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/delete', 'name': 'jobTemplete_delete'}, 'model': 'app_tower.permissionlist', 'pk': 41}
+2017-10-16 10:22:10,513 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/job/update', 'name': 'jobTemplete_update'}, 'model': 'app_tower.permissionlist', 'pk': 42}
+2017-10-16 10:22:10,525 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/add', 'name': 'credentials_add'}, 'model': 'app_tower.permissionlist', 'pk': 43}
+2017-10-16 10:22:10,562 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/delete', 'name': 'credentials_delete'}, 'model': 'app_tower.permissionlist', 'pk': 44}
+2017-10-16 10:22:10,566 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/credentials/update', 'name': 'credentials_update'}, 'model': 'app_tower.permissionlist', 'pk': 45}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/add', 'name': 'project_add'}, 'model': 'app_tower.permissionlist', 'pk': 46}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/delete', 'name': 'project_delete'}, 'model': 'app_tower.permissionlist', 'pk': 47}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/project/update', 'name': 'project_update'}, 'model': 'app_tower.permissionlist', 'pk': 48}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/select', 'name': 'playbook_select'}, 'model': 'app_tower.permissionlist', 'pk': 54}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/add', 'name': 'playbook_add'}, 'model': 'app_tower.permissionlist', 'pk': 55}
+2017-10-16 10:22:10,568 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/delete', 'name': 'playbook_delete'}, 'model': 'app_tower.permissionlist', 'pk': 56}
+2017-10-16 10:22:10,569 authoritydb.py[line:686] INFO {'fields': {'url': '/app_tower/playbook/update', 'name': 'playbook_update'}, 'model': 'app_tower.permissionlist', 'pk': 57}
+2017-10-16 10:22:10,569 authoritydb.py[line:695] INFO [{'cname': '\xe6\xb7\xbb\xe5\x8a\xa0playbook', 'name': 'playbook_add', 'isOwn': 'true'}, {'cname': '\xe5\x88\xa0\xe9\x99\xa4playbook', 'name': 'playbook_delete', 'isOwn': 'true'}, {'cname': '\xe4\xbf\xae\xe6\x94\xb9playbook', 'name': 'playbook_update', 'isOwn': 'true'}]
+2017-10-16 10:22:10,569 authoritydb.py[line:696] INFO parentPermission end
+2017-10-16 10:22:23,420 authoritydb.py[line:350] INFO selectUser start
+2017-10-16 10:22:23,427 authoritydb.py[line:402] INFO selectUser end
+2017-10-16 10:22:29,684 authoritydb.py[line:350] INFO selectUser start
+2017-10-16 10:22:29,694 authoritydb.py[line:402] INFO selectUser end
+2017-10-16 10:22:30,420 authoritydb.py[line:350] INFO selectUser start
+2017-10-16 10:22:30,426 authoritydb.py[line:402] INFO selectUser end
+2017-10-16 11:23:03,499 authoritydb.py[line:25] INFO login start
+2017-10-16 11:23:03,509 authoritydb.py[line:243] INFO md5 start
+2017-10-16 11:23:03,509 authoritydb.py[line:246] INFO md5 end
+2017-10-16 11:23:03,532 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-16 11:23:03,532 authoritydb.py[line:99] INFO login end
+2017-10-16 11:23:04,063 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 11:23:04,171 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 11:31:20,062 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 11:31:20,183 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 11:52:17,618 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 11:52:17,762 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 17:44:36,117 authoritydb.py[line:25] INFO login start
+2017-10-16 17:44:36,128 authoritydb.py[line:243] INFO md5 start
+2017-10-16 17:44:36,128 authoritydb.py[line:246] INFO md5 end
+2017-10-16 17:44:36,153 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-16 17:44:36,154 authoritydb.py[line:99] INFO login end
+2017-10-16 17:44:37,042 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 17:44:37,161 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 17:50:04,282 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 17:50:04,395 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 17:54:55,917 authoritydb.py[line:25] INFO login start
+2017-10-16 17:54:55,930 authoritydb.py[line:243] INFO md5 start
+2017-10-16 17:54:55,930 authoritydb.py[line:246] INFO md5 end
+2017-10-16 17:54:55,940 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-16 17:54:55,940 authoritydb.py[line:99] INFO login end
+2017-10-16 17:54:56,625 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 17:54:56,757 authoritydb.py[line:834] INFO JobStatusStatics end
+2017-10-16 17:55:07,358 authoritydb.py[line:756] INFO JobStatusStatics start
+2017-10-16 17:55:07,480 authoritydb.py[line:834] INFO JobStatusStatics end

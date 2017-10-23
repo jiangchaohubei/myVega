@@ -1,0 +1,45 @@
+<html lang="zh_CN">
+<head>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="robots" content="NONE,NOARCHIVE">
+    <title>帮助文档</title>
+    <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+    <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+    <style>
+        .pdfobject-container { height: 700px;}
+        .pdfobject { border: 1px solid #666; }
+    </style>
+
+</head>
+
+<body class="change-list">
+<div id="body-content" class="clearfix row" style="margin-top: 15px;">
+    <br id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+<!--足迹导航-->
+        <ul class="breadcrumb">
+            <li>帮助文档</li>
+        </ul>
+        下载地址：<a href="/app_tower/hosts/downloadXLSX?filename=instructions.pptx">自动化部署产品说明书</a></br>
+        下载地址：<a href="/app_tower/hosts/downloadXLSX?filename=guide.docx">使用手册</a>
+
+        <div id="example1"></div>
+        <script src="/static/js/pdfobject.min.js"></script>
+        <script>PDFObject.embed("/static/doc/help.pdf", "#example1");</script>
+
+
+
+</div>
+</div>
+</body></html>
+

@@ -1,0 +1,51 @@
+.partcheckBox {
+  visibility: hidden;
+  display: none;
+}
+.checkboxLabel {
+  cursor: pointer;
+  margin-left: -5px;
+  margin-bottom: 0px;
+  width: 12.5px;
+  height: 12.5px;
+  background-color: #222222;
+  border: 3px #DDDDDD solid;
+}
+
+.selected{
+  background-color: #fff5d5;
+}
+/*表格无数据显示*/
+.norecords { border-width:2px !important; display:none; font-weight: bold;font-size: 30px; left: 43%;  padding: 6px; position: absolute; text-align: center; top: 45%; width: auto; z-index: 102; }
+
+
+
+
+.ul_btn_dd {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.ul_btn_divul1 {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.ul_btn_divul2 {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    opacity: 1;
+    left: 100%;
+    position: absolute;
+    background-color: #7de87d;
+    top: 0;
+}
+
+
+

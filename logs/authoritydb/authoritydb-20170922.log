@@ -1,0 +1,25 @@
+2017-09-22 17:18:08,505 authoritydb.py[line:243] INFO md5 start
+2017-09-22 17:18:08,506 authoritydb.py[line:246] INFO md5 end
+2017-09-22 17:18:19,454 authoritydb.py[line:25] INFO login start
+2017-09-22 17:18:19,464 authoritydb.py[line:243] INFO md5 start
+2017-09-22 17:18:19,466 authoritydb.py[line:246] INFO md5 end
+2017-09-22 17:18:19,487 authoritydb.py[line:83] INFO Admin登陆成功
+2017-09-22 17:18:19,489 authoritydb.py[line:99] INFO login end
+2017-09-22 17:18:20,127 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:18:20,232 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:20:34,089 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:20:34,246 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:20:50,253 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:20:50,375 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:22:54,588 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:22:54,698 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:43:13,269 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:43:13,371 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:44:01,519 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:44:01,670 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 17:46:13,584 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 17:46:13,687 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 18:11:59,391 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 18:11:59,536 authoritydb.py[line:826] INFO JobStatusStatics end
+2017-09-22 18:13:06,611 authoritydb.py[line:748] INFO JobStatusStatics start
+2017-09-22 18:13:06,739 authoritydb.py[line:826] INFO JobStatusStatics end

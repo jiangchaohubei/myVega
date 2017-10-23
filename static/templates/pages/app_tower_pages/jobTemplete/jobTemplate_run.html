@@ -1,0 +1,501 @@
+<html lang="zh_CN"><head>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <title>用户设置列表 | DjangoX</title>
+  <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+
+  <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+
+        <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+
+
+  <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+    <!--双向列表-->
+    <link href="/static/js/bootstrap-DualListbox/bootstrap-duallistbox.css" type="text/css" media="screen" rel="stylesheet">
+
+    <!-- 全屏插件-->
+    <link rel="stylesheet" href="/static/js/textareafullscreen/textareafullscreen.css">
+    <style>
+        .tx-editor-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .tx-editor-wrapper .tx-editor {
+            height: 550px;
+        }
+    </style>
+
+<style>
+    .control-span{
+        padding: 7px 10px;
+
+    }
+</style>
+
+</head>
+<body class="change-list" onload="onload_jobrun()">
+
+    <!-- Header -->
+
+
+  <div id="body-content" class="clearfix row" style="margin-top: 15px;">
+
+
+
+    <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+
+      <ul class="breadcrumb">
+
+
+		      <li>
+                <a id="beforepage" href="/static/templates/pages/app_tower_pages/jobTemplete/jobTemplate.html">任务模板</a>
+            </li>
+
+            <li>
+                查看任务运行情况
+
+            </li>
+
+
+      </ul>
+
+        <div class="col-md-6" style="height:400px;text-align: center">
+
+            <div id="taskid" style="display: none"></div>
+            <div id="jobsid" style="display: none"></div>
+            <div id="credentrialId" style="display: none"></div>
+
+<!--折叠框-->
+                <div class="panel-group" id="accordion" style="margin-bottom: 100px">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne">
+                                    运行结果
+                                </a>
+                                <input type="button" id="stopbtn" onclick="stoprun()" class="btn btn-success" value="停止" name="_continue">
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="col-md-12">
+                                <div class="row">
+                                    <label class="col-md-2 control-label" for="name">运行状态：</label>
+                                    <span id="state" class="col-md-4 control-span" style="color:#ff0000;word-wrap:break-word;word-break:break-all; " >
+                    STARTED
+                </span>
+
+
+                                    <label class="col-md-2 control-label" for="name">任务模板：</label>
+                                    <span id="name" class="col-md-4 control-span" style="word-wrap:break-word;word-break:break-all;">
+                    demo templete
+                </span>
+
+                                </div>
+                                    <div class="row">
+                                    <label class="col-md-2 control-label" for="name">开始时间：</label>
+                                    <span id="startTime" class="col-md-4 control-span" style="word-wrap:break-word;word-break:break-all;">
+                    2017-08-01 晚上10点27分38秒
+                </span>
+
+                                    <label class="col-md-2 control-label" for="name">结束时间：</label>
+                                    <span id="endTime" class="col-md-4 control-span" style="word-wrap:break-word;word-break:break-all;">
+                    2017-08-01 晚上10点27分57秒
+                </span>
+                                    </div>
+                                    <div class="row">
+                                    <label class="col-md-2 control-label" for="name">耗时(s)：</label>
+                                    <span id="elapsed" class="col-md-4 control-span" style="word-wrap:break-word;word-break:break-all;">
+                    00:00:19
+                </span>
+
+                                    <label class="col-md-2 control-label" for="name">主机组：</label>
+                                    <span id="hostGroup" style="word-wrap:break-word;word-break:break-all;" class="col-md-4 control-span" >
+                    webservices
+                </span>
+                                    </div>
+                                    <div class="row">
+                                    <label class="col-md-2 control-label" for="name">任务类型：</label>
+                                    <span id="runType" style="word-wrap:break-word;word-break:break-all;" class="col-md-4 control-span" >
+                    run
+                </span>
+
+                                    <label class="col-md-2 control-label" for="name">执行人：</label>
+                                    <span id="runUser" style="word-wrap:break-word;word-break:break-all;" class="col-md-4 control-span" >
+                    &nbsp;
+                </span>
+                                    </div>
+                                    <div class="row">
+                                    <label class="col-md-2 control-label" for="name">项目：</label>
+                                    <span id="project" style="word-wrap:break-word;word-break:break-all;" class="col-md-4 control-span" >
+                    demo project
+                </span>
+
+                                    <label class="col-md-2 control-label" for="name">playbook：</label>
+                                    <span id="playbookPath" style="word-wrap:break-word;word-break:break-all;" class="col-md-4 control-span" >
+                    /root/code/ping.yml
+                </span>
+                                </div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default" style="margin-top: 20px">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseThree">
+                                    事件概要
+                                </a>
+                                <input type="button" id="createGroup" onclick="showCreateGroupModal()" class="btn btn-success" value="生成回滚主机组" name="_continue">
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <table class="table table-striped" id="eventTable">
+                                    <!--<caption>EVENT SUMMARY</caption>-->
+                                    <thead>
+                                    <tr>
+                                        <th>eventID</th>
+                                        <th>hostID</th>
+                                        <th>host</th>
+                                        <th>ok</th>
+                                        <th>failed</th>
+                                        <th>changed</th>
+                                        <th>unreachable</th>
+                                        <th>skipped</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+        <div id="runlog" class="col-md-6" style="height:550px;text-align: center;">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="text-align: center">
+                    运行日志
+                </div>
+                <div class="panel-body">
+            <textarea class="form-control" wrap="off" style="border-style:none;overflow:scroll;" rows="20" ng-model="ansible_log" ng-show="ansible_log" id="textscroll"></textarea>
+        </div>
+            </div>
+        </div>
+
+  </form>
+
+    </div>
+
+  </div>
+
+
+  <br>
+  <br>
+    <!--生产回滚主机组模态框-->
+    <div class="modal fade" id="createGroupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:1000px">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel" title="删除主机组记录">生成回滚主机组</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseGroup">
+                                        生成回滚主机组
+                                    </a>
+
+                                </h4>
+                            </div>
+                            <div id="collapseGroup" class="panel-collapse collapse in">
+                                <div class="panel-body" style="text-align:center;">
+                                    <div>选择回滚主机</div>
+                                    <select multiple="multiple" size="10" name="duallistbox_demo1" id="backHostSelect" class="demo1">
+
+                                    </select>
+                                    <br />
+                                    <form id="createGroupForm" class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 ">组名称</label>
+                                            <div class="col-sm-4">
+                                                <div class="input-group">
+                                                <span class="input-group-addon">rb_</span>
+                                                <input type="text" class="form-control" id="input_groupName" name="name"
+                                                       placeholder="请输入组名称">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword" class="col-sm-2 ">描述</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="input_desc" name="agree"
+                                                       placeholder="描述">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword" class="col-sm-2 ">使用授权</label>
+                                            <div class="col-sm-4">
+
+                                                <select class="form-control " name="owner" id="input_owner"  >
+                                                    <option value="onlyOne" selected>仅自己</option>
+                                                    <option value="all" >所有人</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword" class="col-sm-2 ">变量</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="input_vars"
+                                                       placeholder="变量">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <button type="button" onclick="createGroup()" id="createGroupBt" class="default btn btn-primary hide-xs" name="_save" data-loading-text="保存中.."><i
+                                            class="fa fa-save"></i> 创建主机组
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="runBackJobCollapse" class="panel panel-default" style="margin-top: 20px;display:none">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseBack">
+                                        运行回滚任务
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseBack" class="panel-collapse collapse">
+                                <div class="panel-body" style="text-align:center;">
+                                    <form id="runBackJobForm" class="form-horizontal" role="form">
+                                        <div class="panel-body " >
+                                            <div class="form-group">
+
+                                                <div class="col-sm-6">
+                                                    <label for="name" class="control-label  requiredField">任务名称<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">rb_</span>
+                                                        <input class="text-field admintextinputwidget form-control" id="job_name" maxlength="32" name="name" placeholder="任务模板名称" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <label for="desc" class="control-label  requiredField">描述<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <input class="text-field admintextinputwidget form-control" id="job_desc" maxlength="80" name="agree" placeholder="描述" type="text">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div  class="form-group">
+
+                                                <div class="col-sm-6">
+                                                    <label for="type" class="control-label  requiredField">执行类型<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <select class="form-control " name="JOB_TYPE" id="job_type">
+
+                                                            <option value="Run" selected>Run</option>
+                                                            <option value="Check">Check</option>
+                                                            <option value="Scan">Scan</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <label for="inventory" class="control-label  requiredField">主机组<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <select class="form-control " name="GROUP_ID" id="job_group">
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <div class="form-group">
+
+                                                <div class="col-sm-6">
+                                                    <label for="playbook" class="control-label  requiredField">playbook<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <div class="input-group" style="width:207px;">
+                                                        <span class="input-group-btn">
+                                                            <button class="btn btn-default" onclick="showReviewModal()" type="button">
+                                                                预览
+                                                            </button>
+                                                        </span>
+                                                       <!-- <input class="text-field admintextinputwidget form-control" id="job_playbook" maxlength="80" name="playBook_path" placeholder="请填写正确的playbook路径" type="text">-->
+                                                            <select class="form-control " name="playBook_path" id="job_playbook"  >
+
+
+                                                            </select>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <label for="project" class="control-label  requiredField">使用授权<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <select class="form-control " name="owner" id="job_owner"  >
+                                                            <option value="onlyOne" selected>仅自己</option>
+                                                            <option value="all" >所有人</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="form-group">
+
+                                                <div class="col-sm-6">
+                                                    <label for="auth" class="control-label  requiredField">登录凭证<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+
+                                                        <select class="form-control " name="credentials" id="job_credentials">
+
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <label for="tag" class="control-label  requiredField">搜索标签<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <input class="text-field admintextinputwidget form-control" id="job_labels" maxlength="80"  name="agree1" placeholder="搜索标签,以英文逗号隔开" type="text">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-6">
+                                                    <label for="forks" class="control-label  requiredField">forks<span class="asteriskField">*</span> </label>
+                                                    <div class="controls ">
+                                                        <input class="text-field admintextinputwidget form-control" id="job_forks" maxlength="80" name="number" type="text">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group">
+
+                                                <div class="col-sm-6">
+                                                    <label for="JobTags" class="control-label  requiredField">Job Tags </label>
+                                                    <div class="controls ">
+                                                        <textarea class="form-control" name="JOB_TAGS" rows="3" id="job_tags" placeholder="以英文逗号隔开 例: tag1,tag2,tag3 ；为空默认全部"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <label for="SkipTags" class="control-label  requiredField">SkipTags </label>
+                                                    <div class="controls ">
+                                                        <textarea class="form-control" rows="3" name="SKIP_TAGS" id="job_skipTags" placeholder="以英文逗号隔开 例: tag1,tag2,tag3"></textarea>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <label for="extravariable" class="control-label  requiredField">Extra variable </label>
+                                                    <div class="controls ">
+                                                        <textarea class="form-control" name="extravariable" rows="3" id="job_extravariable" placeholder='json格式，例：{"var1":"var1","var2":"var2"}'></textarea>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <button id="runBackJobBt" type="button" onclick="runBackBt()"  class="default btn btn-primary hide-xs" name="_save" data-loading-text="保存中.."><i
+                                            class="fa fa-save"></i> 执行回滚
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+<!--双向列表-->
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" onclick="" class="btn btn-primary" data-dismiss="modal">确定</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!--预览模态框-->
+    <div class="modal fade" id="reviewModal">
+        <div class="modal-dialog" style="width:650px">
+            <div class="modal-content message_align">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" title="预览">预览</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea class="form-control" disabled wrap="off" style="border-style:none;overflow:scroll;" rows="20" ng-model="ansible_log" ng-show="ansible_log" id="reviewTextarea"></textarea>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+
+
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+    <script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/static/javascript/bootstrap-table.js"></script>
+    <script src="/static/javascript/bootstrap-table-zh-CN.js"></script>
+    <script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+    <script src="/static/javascript/jquery.validate.js"></script>
+    <script src="/static/javascript/common.js"></script>
+    <!--双向列表-->
+    <script src="/static/js/bootstrap-DualListbox/jquery.bootstrap-duallistbox.js"></script>
+
+    <script src="/static/js/textareafullscreen/jquery.textareafullscreen.js"></script>
+    <script type="text/javascript" src="/static/javascript/js/app_tower_js/jobTemplete/jobTemplate_run.js"></script>
+
+
+
+</body></html>

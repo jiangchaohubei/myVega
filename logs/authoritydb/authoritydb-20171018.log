@@ -1,0 +1,38 @@
+2017-10-18 16:18:53,046 authoritydb.py[line:25] INFO login start
+2017-10-18 16:18:53,055 authoritydb.py[line:243] INFO md5 start
+2017-10-18 16:18:53,056 authoritydb.py[line:246] INFO md5 end
+2017-10-18 16:18:53,089 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-18 16:18:53,091 authoritydb.py[line:99] INFO login end
+2017-10-18 16:18:53,737 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 16:18:53,864 authoritydb.py[line:807] INFO job exist
+2017-10-18 16:18:53,894 authoritydb.py[line:835] INFO JobStatusStatics end
+2017-10-18 16:22:52,065 authoritydb.py[line:25] INFO login start
+2017-10-18 16:22:52,075 authoritydb.py[line:243] INFO md5 start
+2017-10-18 16:22:52,075 authoritydb.py[line:246] INFO md5 end
+2017-10-18 16:22:52,082 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-18 16:22:52,082 authoritydb.py[line:99] INFO login end
+2017-10-18 16:22:52,721 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 16:22:52,842 authoritydb.py[line:807] INFO job exist
+2017-10-18 16:22:52,880 authoritydb.py[line:835] INFO JobStatusStatics end
+2017-10-18 17:11:33,765 authoritydb.py[line:25] INFO login start
+2017-10-18 17:11:33,776 authoritydb.py[line:243] INFO md5 start
+2017-10-18 17:11:33,778 authoritydb.py[line:246] INFO md5 end
+2017-10-18 17:11:33,803 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-18 17:11:33,803 authoritydb.py[line:99] INFO login end
+2017-10-18 17:11:34,345 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 17:11:34,467 authoritydb.py[line:807] INFO job exist
+2017-10-18 17:11:34,499 authoritydb.py[line:835] INFO JobStatusStatics end
+2017-10-18 17:30:49,798 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 17:30:49,924 authoritydb.py[line:807] INFO job exist
+2017-10-18 17:30:49,953 authoritydb.py[line:835] INFO JobStatusStatics end
+2017-10-18 17:32:40,621 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 17:32:40,740 authoritydb.py[line:807] INFO job exist
+2017-10-18 17:32:40,769 authoritydb.py[line:835] INFO JobStatusStatics end
+2017-10-18 18:07:09,466 authoritydb.py[line:25] INFO login start
+2017-10-18 18:07:09,479 authoritydb.py[line:243] INFO md5 start
+2017-10-18 18:07:09,479 authoritydb.py[line:246] INFO md5 end
+2017-10-18 18:07:09,506 authoritydb.py[line:50] INFO jzyuan登陆成功
+2017-10-18 18:07:09,506 authoritydb.py[line:99] INFO login end
+2017-10-18 18:07:10,276 authoritydb.py[line:757] INFO JobStatusStatics start
+2017-10-18 18:07:10,395 authoritydb.py[line:807] INFO job exist
+2017-10-18 18:07:10,424 authoritydb.py[line:835] INFO JobStatusStatics end

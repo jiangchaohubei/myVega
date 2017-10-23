@@ -1,0 +1,6 @@
+2017-10-16 09:49:41,503 jobsdb.py[line:15] INFO jobs_select start
+2017-10-16 09:49:41,522 jobsdb.py[line:72] INFO jobs_select end
+2017-10-16 17:49:36,549 jobsdb.py[line:15] INFO jobs_select start
+2017-10-16 17:49:36,559 jobsdb.py[line:72] INFO jobs_select end
+2017-10-16 17:50:13,441 jobsdb.py[line:15] INFO jobs_select start
+2017-10-16 17:50:13,447 jobsdb.py[line:72] INFO jobs_select end

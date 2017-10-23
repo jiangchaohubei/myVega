@@ -1,0 +1,34 @@
+
+
+
+<div class="container" id="container_div" style="max-height: 400px;width:500px;overflow:hidden">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="list-group ">
+
+                <label class="block" style="margin: 10px">
+                    <h4>
+                        {{ data.title }}
+                    </h4>
+                </label>
+                <div style="margin: 10px;">
+                    {% if data %}
+                    {% for i in data.permission %}
+
+                    <label style="display:block">
+
+                     <input  type="checkbox" pname={{ i.name }} id={{ data.id }} {%ifequal i.isOwn 'true' %}checked {% endifequal %}style="margin-left:2px;margin-right: 10px"/>
+                        {{ i.cname }}
+                    </label>
+
+
+                    {% endfor %}
+                    {% endif %}
+                    </div>
+                <div class="hr hr-dotted"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display: none" id="authority_model_parentPermission">  {{data.id  }}</div>

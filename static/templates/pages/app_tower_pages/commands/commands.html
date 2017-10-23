@@ -1,0 +1,545 @@
+<html lang="zh_CN"><head>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <title>commands</title>
+  <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+
+  <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+
+        <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+
+  <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 全屏插件-->
+    <link rel="stylesheet" href="/static/js/textareafullscreen/textareafullscreen.css">
+    <link rel="stylesheet" href="/static/js/multiple-select/multiple-select.css">
+    <style>
+        .row {
+            margin-right: -0px;
+            margin-left: -0px;
+        }
+        .tx-editor-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .tx-editor-wrapper .tx-editor {
+            height: 550px;
+        }
+        .ms-parent {
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+            width: 62%;
+            float:left;
+        }
+        .ms-choice {
+            display: block;
+            width: 100%;
+            height: 32px;
+            padding: 0;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #aaa;
+            text-align: left;
+            white-space: nowrap;
+            line-height: 26px;
+            color: #444;
+            text-decoration: none;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+        .ms-drop ul > li label {
+            font-weight: normal;
+            display: block;
+            white-space: nowrap;
+            float: left;
+        }
+        .ms-drop ul {
+            overflow: auto;
+            margin: 0;
+            padding: 5px 8px;
+            float:left
+        }
+
+    </style>
+
+</head>
+<body class="change-list" >
+
+    <!-- Header -->
+
+
+  <div id="body-content" class="clearfix row" style="margin-top: 15px;">
+
+
+
+    <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+
+      <ul class="breadcrumb">
+
+            <li>
+               commands
+
+            </li>
+
+
+      </ul>
+
+        <div class="col-md-6" style="height:400px;text-align: center;float:left;">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="text-align: center">
+                    commands命令
+                </div>
+                <div class="panel-body">
+                    <ul id="myTab" class="nav nav-tabs"  >
+                        <!--<li class="active" ><a href="#One" data-toggle="tab">
+                            commands1</a>
+                        </li>-->
+                        <!--  <li class="active"><a href="#Two" data-toggle="tab">commands</a></li>-->
+                          <li class="active"><a href="#Three" data-toggle="tab">查日志</a></li>
+                          <li><a href="#Four" data-toggle="tab">分发文件</a></li>
+                          <li><a href="#Five" data-toggle="tab">查找SN号</a></li>
+                          <li class="dropdown">
+                              <a href="#" id="myTabDrop1" class="dropdown-toggle"
+                                 data-toggle="dropdown">其他 <b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                                 <li><a href="#changeAuth" tabindex="-1" data-toggle="tab">
+                                      修改权限</a>
+                                  </li>
+                                  <li><a href="#searchProcess" tabindex="-1" data-toggle="tab">
+                                      查询进程</a>
+                                  </li>
+                                  <li><a href="#changeProcess" tabindex="-1" data-toggle="tab">
+                                      启动/停止进程</a>
+                                  </li>
+                                  <li><a href="#runSH" tabindex="-1" data-toggle="tab">
+                                      执行SH脚本</a>
+                                  </li>
+                                  <!-- <li><a href="#ejb" tabindex="-1" data-toggle="tab">
+                                      ejb</a>
+                                  </li>-->
+                              </ul>
+                          </li>
+                      </ul>
+                      <div id="taskid" style="display: none"></div>
+                      <div id="logfile" style="display: none"></div>
+
+                      <div id="myTabContent" class="tab-content" >
+                          <!--<div class="tab-pane fade in active" id="One">
+                              <div class="row">
+                                  <label class="col-md-2 control-label" for="name">commands命令</label>
+                                  <div  class="col-md-10" style="margin-top: 15px;margin-bottom: 15px;color:#ff0000 " >
+                                      <input type="text" class="form-control" placeholder="请输入commands" id="commands"  >
+                                  </div>
+                                  <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="runCommands()">执行</button>
+                              </div>
+                          </div>-->
+                       <!-- <div class="tab-pane fade in active" id="Two">
+                            <div class="row">
+
+                                <label for="inventory" class="control-label col-md-4  requiredField" style="height:64px;line-height:50px;">主机组<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+                                    <select class="form-control " name="GROUP_ID" id="group">
+
+                                    </select>
+                                </div>
+
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+
+                                    <select class="form-control " name="credentials" id="credentials">
+
+                                    </select>
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">模块</label>
+                                <div  class="col-md-8" style="height:64px;" >
+                                    <input type="text" class="form-control" placeholder="请输入模块名" id="commandName"  >&nbsp;
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">参数</label>
+                                <div  class="col-md-8"  style="height:64px;">
+                                    <input type="text" class="form-control" placeholder="请输入参数" id="vars"  >&nbsp;
+                                </div>
+
+                                <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="runAnsible()">执行</button>
+                            </div>
+
+                        </div>-->
+                        <div class="tab-pane fade in active" id="Three">
+                            <div class="row">
+
+                                <label for="inventory" class="control-label col-md-4  requiredField" style="height:64px;line-height:50px;">主机组<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+                                    <select class="form-control " onchange="onLOGGroupChange()" name="GROUP_ID" id="searchLog_group">
+
+                                    </select>
+
+                                </div>
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">主机筛选<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8" style="height:64px;">
+
+                                    <select id="chooseLOGHost" multiple="multiple">
+                                        <option>no hosts</option>
+                                    </select>
+                                </div>
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+
+                                    <select class="form-control " name="credentials" id="searchLog_credentials">
+
+                                    </select>
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">模块</label>
+                                <div  class="col-md-8"  style="height:64px;line-height:64px;">
+
+                                    <span id="searchLog_commandName" style="float:left">shell</span>
+                                </div>
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">查找命令<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+
+                                    <select class="form-control " name="searchLog_cmd" id="searchLog_cmd">
+                                        <option value="grep" selected>grep</option>
+                                        <option value="zgrep" selected>zgrep</option>
+
+                                    </select>
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">查找内容</label>
+                                <div  class="controls col-md-8"  style="height:64px;">
+                                    <input type="text" class="form-control" placeholder="请输入查找内容" id="searchLog_content"  >&nbsp;
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">路径文件</label>
+                                <div  class="controls col-md-8"  style="height:64px;">
+                                    <input type="text" class="form-control" placeholder="请输入路径文件" id="searchLog_filePath"  >&nbsp;
+                                </div>
+
+                                <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="searchLog()">执行</button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade " id="Four">
+                            <div class="row">
+
+                                <label for="inventory" class="control-label col-md-4  requiredField" style="height:64px;line-height:50px;">主机组<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+                                    <select class="form-control " onchange="onCOPYGroupChange()" name="GROUP_ID" id="copy_group">
+
+                                    </select>
+
+                                </div>
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">主机筛选<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8" style="height:64px;">
+
+                                    <select id="chooseCOPYHost" multiple="multiple">
+                                        <option>no hosts</option>
+                                    </select>
+                                </div>
+
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+
+                                    <select class="form-control " name="credentials" id="copy_credentials">
+
+                                    </select>
+                                </div>
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">模块</label>
+                                <div  class="col-md-8"  style="height:64px;line-height:64px;">
+
+                                    <span id="copy_commandName" style="float: left">copy</span>
+                                </div>
+                                <label class="col-md-4 control-label" for="srcPath" style="height:64px;line-height:50px;">文件路径</label>
+                                <div  class="controls col-md-8"  style="height:64px;">
+                                    <input type="text" class="form-control" placeholder="请输入参数" id="copy_srcPath"  >&nbsp;
+                                </div>
+                                <label class="col-md-4 control-label" for="desPath" style="height:64px;line-height:50px;">文件目标路径</label>
+                                <div  class="controls col-md-8"  style="height:64px;">
+                                    <input type="text" class="form-control" placeholder="请输入参数" id="copy_desPath"  >&nbsp;
+                                </div>
+
+                                <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="copyFile()">执行</button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade " id="Five">
+                            <div class="row">
+                                <div class="row">
+                                <label for="inventory" class="control-label col-md-4  requiredField" style="height:64px;line-height:50px;">主机组<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+                                    <select class="form-control " onchange="onSNGroupChange()" name="GROUP_ID" id="searchSN_group">
+
+                                    </select>
+
+                                </div>
+                                </div>
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">主机筛选<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8" style="height:64px;">
+
+                                    <select id="chooseSNHost" multiple="multiple">
+                                        <option>no hosts</option>
+                                    </select>
+                                </div>
+                                <div class="row">
+                                <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8">
+
+                                    <select class="form-control " name="credentials" id="searchSN_credentials">
+
+                                    </select>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">模块</label>
+                                <div  class="col-md-8"  style="height:64px;line-height:64px;">
+
+                                    <span id="searchSN_commandName" style="float: left">shell</span>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">参数</label>
+                                <div  class="col-md-8"  style="height:64px;line-height:64px;">
+
+                                    <span id="searchSN_vars" style="float: left">dmidecode -t 1 | grep Serial</span>
+                                </div>
+                                </div>
+                                <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="searchSN()">执行</button>
+                            </div>
+
+                        </div>
+                          <div class="tab-pane fade " id="changeAuth">
+                              <div class="row">
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">主机IP<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" placeholder="请输入主机IP(10、172开头)" id="auth_hostName">&nbsp;
+                                      </div>
+                                  </div>
+
+                                  <div class="row">
+                                      <label for="auth" class="control-label col-md-3 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+
+                                          <select class="form-control " name="credentials" id="auth_credentials">
+
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">目标用户<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" value="version" placeholder="请输入目标用户" id="auth_userName">&nbsp;
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label class="col-md-3 control-label" for="name" style="height:64px;line-height:50px;">说明</label>
+
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" placeholder="说明" id="auth_requestUser">&nbsp;
+                                      </div>
+
+                                  </div>
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">SSH端口号</label>
+                                      <div class="controls col-md-5" style="height:64px;">
+                                          <input type="number" class="form-control" value="5188" placeholder="SSH端口号" id="auth_port">&nbsp;
+                                      </div>
+                                      <div class="controls col-md-1" style="height:64px;line-height:38px;">
+                                          <input type="checkbox" class="" id="auth_portCheckbox">&nbsp;
+                                      </div>
+
+                                  </div>
+
+
+                                  <div style="text-align:center">
+                                      <button type="button" class="btn btn-primary " style="width: 80px;" onclick="changeAuth('add')">增加权限</button>
+                                      <button type="button" class="btn btn-info " style="width: 80px;" onclick="changeAuth('cancel')">取消权限</button>
+                                      <button type="button" class="btn btn-success " style="width: 80px;" onclick="changeAuth('search')">查询权限</button>
+                                      <button type="button" class="btn btn-success " style="width: 130px;" onclick="changeAuth('searchFile')">查看sudoers文件</button>
+                                  </div>
+                              </div>
+
+                          </div>
+                          <div class="tab-pane fade " id="searchProcess">
+                              <div class="row">
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">主机IP<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" placeholder="请输入主机IP(10、172开头)" id="searchProcess_hostName">&nbsp;
+                                      </div>
+                                  </div>
+
+                                  <div class="row">
+                                      <label for="auth" class="control-label col-md-3 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+
+                                          <select class="form-control " name="credentials" id="searchProcess_credentials">
+
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">进程名称<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" value="" placeholder="请输入进程名称" id="searchProcess_processName">&nbsp;
+                                      </div>
+                                  </div>
+
+
+
+                                  <div style="text-align:center">
+
+                                      <button type="button" class="btn btn-success " style="width: 80px;" onclick="searchProcess()">查询进程</button>
+                                  </div>
+                              </div>
+
+                          </div>
+                          <div class="tab-pane fade " id="changeProcess">
+                              <div class="row">
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">主机IP<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" placeholder="请输入主机IP(10、172开头)" id="changeProcess_hostName">&nbsp;
+                                      </div>
+                                  </div>
+
+                                  <div class="row">
+                                      <label for="auth" class="control-label col-md-3 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+
+                                          <select class="form-control " name="credentials" id="changeProcess_credentials">
+
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-3  requiredField" style="height:64px;line-height:50px;">进程名称<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8" style="height:64px;">
+                                          <input type="text" class="form-control" value="" placeholder="请输入进程名称" id="changeProcess_processName">&nbsp;
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label for="auth" class="control-label col-md-3 requiredField" style="height:64px;line-height:50px;">进程操作<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+
+                                          <select class="form-control " name="" id="changeProcess_operation">
+                                              <option value="started" >启动</option>
+                                              <option value="restarted" >重启</option>
+                                             <!-- <option value="reloaded" >重新加载</option>-->
+                                              <option value="stopped" >停止</option>
+                                              <!-- <option value="yes" >开机启动</option>
+                                               <option value="no" >开机不启动</option>-->
+                                           </select>
+                                       </div>
+                                   </div>
+
+
+
+                                   <div style="text-align:center">
+
+                                       <button type="button" class="btn btn-success " style="width: 80px;" onclick="changeProcess()">运行</button>
+                                   </div>
+                               </div>
+
+                           </div>
+                          <div class="tab-pane fade " id="runSH">
+                              <div class="row">
+                                  <div class="row">
+                                      <label for="inventory" class="control-label col-md-4  requiredField" style="height:64px;line-height:50px;">主机组<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+                                          <select class="form-control " onchange="onRunSHGroupChange()" name="GROUP_ID" id="runSH_group">
+
+                                          </select>
+
+                                      </div>
+                                  </div>
+                                  <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">主机筛选<span class="asteriskField">*</span> </label>
+                                  <div class="controls col-md-8" style="height:64px;">
+
+                                      <select id="chooseRunSHHost" multiple="multiple">
+                                          <option>no hosts</option>
+                                      </select>
+                                  </div>
+                                  <div class="row">
+                                      <label for="auth" class="control-label col-md-4 requiredField" style="height:64px;line-height:50px;">登录凭证<span class="asteriskField">*</span> </label>
+                                      <div class="controls col-md-8">
+
+                                          <select class="form-control " name="credentials" id="runSH_credentials">
+
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">模块</label>
+                                      <div  class="col-md-8"  style="height:64px;line-height:64px;">
+
+                                          <span id="runSH_commandName" style="float: left">script</span>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <label class="col-md-4 control-label" for="name" style="height:64px;line-height:50px;">脚本内容</label>
+                                      <div  class="col-md-8"  >
+                                          <textarea class="form-control" id="runSH_vars"></textarea>
+                                      </div>
+                                  </div>
+                                  <button type="button" class="btn btn-primary col-md-2 col-md-offset-6" style="width: 80px;" onclick="runSH()">执行</button>
+                              </div>
+
+                          </div>
+                     </div>
+                 </div>
+             </div>
+
+
+         </div>
+         <div id="runlog" class="col-md-6" style="height:550px;text-align: center;">
+
+             <div class="panel panel-default">
+                 <div class="panel-heading" style="text-align: center">
+                     运行日志
+                 </div>
+                 <div class="panel-body">
+                     <textarea class="form-control" wrap="off" style="border-style:none;overflow:scroll;" rows="20" ng-model="ansible_log" ng-show="ansible_log" id="log"></textarea>
+                 </div>
+             </div>
+
+         </div>
+         </div>
+
+   </form>
+
+
+
+     </div>
+   </div>
+
+
+   <br>
+   <br>
+
+
+     <script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+     <script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+     <script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+     <script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+
+     <script src="/static/javascript/jquery.validate.js"></script>
+     <script src="/static/javascript/common.js"></script>
+
+     <script src="/static/js/textareafullscreen/jquery.textareafullscreen.js"></script>
+     <script src="/static/js/multiple-select/multiple-select.js"></script>
+
+     <script type="text/javascript" src="/static/javascript/js/app_tower_js/commands/commands.js"></script>
+
+
+
+ </body></html>

@@ -1,0 +1,25 @@
+.title1{
+    position:relative;
+    text-align:center;
+}
+.title1:before, .title1:after {
+    content: "";
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+}
+.title1:before {
+    background: -webkit-linear-gradient(right, #666 , #eee);
+    background: -o-linear-gradient(left, #666 , #eee);
+    background: -moz-linear-gradient(left,#666 , #eee);
+    background: linear-gradient(to left, #666 , #eee);
+    left: 2px;
+}
+.title1:after {
+    background: -webkit-linear-gradient(left, #666 , #eee);
+    background: -o-linear-gradient(right, #666 , #eee);
+    background: -moz-linear-gradient(right,#666 , #eee);
+    background: linear-gradient(to right, #666 , #eee);
+    right: 2px;
+}

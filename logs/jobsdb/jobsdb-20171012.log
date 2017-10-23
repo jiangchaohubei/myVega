@@ -1,0 +1,16 @@
+2017-10-12 16:50:58,095 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'test \ng  gg g \ng g g    g', 'name': u'test', 'description': u'test'}
+2017-10-12 16:50:58,102 playbook.py[line:66] ERROR (1146, "Table 'vega.app_tower_playbook' doesn't exist")
+2017-10-12 16:50:58,104 playbook.py[line:69] INFO playbook_add end
+2017-10-12 16:52:20,836 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'tetetet t te   t e \n\nt \ne\nt\n       te\n', 'name': u'test', 'description': u'test'}
+2017-10-12 16:56:53,517 playbook.py[line:36] INFO {'owner': u'all', 'content': u'tete', 'name': u'test', 'description': u'test'}
+2017-10-12 16:56:59,207 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'tete', 'name': u'testet', 'description': u'test'}
+2017-10-12 16:58:33,108 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'gfgfg', 'name': u'dgg', 'description': u'gfg'}
+2017-10-12 16:59:51,289 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'vcv', 'name': u'vc', 'description': u'vc'}
+2017-10-12 17:02:43,668 playbook.py[line:36] INFO {'owner': u'onlyOne', 'content': u'dfdfdfdf              dfdfd\n---f dgd \ng \ng fgfgf                   fgfgff', 'name': u'asdf', 'description': u'test'}
+2017-10-12 17:04:37,441 playbook.py[line:36] INFO {'owner': u'all', 'content': u'-----bvbvb     fgf  \ngf fgf \nfg       fg', 'name': u'zxcvc', 'description': u'bcvbvb'}
+2017-10-12 17:21:15,573 playbook.py[line:84] INFO playbook_select start
+2017-10-12 17:21:15,592 playbook.py[line:132] INFO playbook_select end
+2017-10-12 17:21:17,714 playbook.py[line:84] INFO playbook_select start
+2017-10-12 17:21:17,726 playbook.py[line:132] INFO playbook_select end
+2017-10-12 17:21:20,467 playbook.py[line:84] INFO playbook_select start
+2017-10-12 17:21:20,483 playbook.py[line:132] INFO playbook_select end

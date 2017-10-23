@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>自动化部署系统登陆</title>
+    <!--收藏用logo图标-->
+    <link rel="bookmark"  type="image/x-icon"  href="/static/images/vega.ico"/>
+    <!--网站显示页logo图标-->
+    <link rel="shortcut icon" href="/static/images/vega.ico">
+    <link rel="icon" href="/static/images/vega.ico">
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/static/ace/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/ace/components/font-awesome/css/font-awesome.css" />
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/static/ace/assets/css/ace-fonts.css" />
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/static/ace/assets/css/ace.css" />
+    <!--[if lte IE 9]-->
+    <link rel="stylesheet" href="/static/ace/assets/css/ace-ie.css"/>
+    <![endif]-->
+    <link rel="stylesheet" href="/static/stylesheets/style.css"/>
+
+    <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen"
+          rel="stylesheet">
+
+    <!--[endif]-->
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+    <!--[if lte IE 8]-->
+
+
+</head>
+
+<body class="login-layout blur-login">
+<div class="main-container">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="login-container">
+                    <div class="center">
+                        <h1>
+                            <img src="/static/images/mam_logo.png" alt=""> <span class="white" id="id-text2">&nbsp;&nbsp;自动化部署系统(预览)</span>
+                        </h1>
+                        <h4 class="light-blue" id="id-company-text">&copy; 咪咕</h4>
+                    </div>
+
+                    <div class="space-6"></div>
+
+                    <div class="position-relative">
+                        <div id="login-box" class="login-box visible widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header blue lighter bigger">
+                                        <i class="ace-icon fa fa-coffee green"></i> 请输入您的登录信息
+                                    </h4>
+
+                                    <div class="space-6"></div>
+
+                                    <form id="login_form" autocomplete="off">
+                                        <fieldset>
+                                            <label class="block clearfix"> <i class="ace-icon fa fa-user"></i> <span class="input-icon input-icon-right" style="width: 90%; float: right;"> <input type="text" class="form-control" placeholder="用户名" id="login_UserName" name="login_UserName" />
+												</span>
+                                            </label> <label class="block clearfix"> <i class="ace-icon fa fa-lock"></i> <span class="input-icon input-icon-right" style="width: 90%; float: right;"> <input type="password" class="form-control" placeholder="密码" id="login_Password" name="password" />
+												</span>
+                                            </label> <label class="block clearfix"> <i class="ace-icon fa fa-eye"></i> <span class="input-icon input-icon-right" style="width: 90%; float: right;"> <input type="text" class="form-control" placeholder="登陆验证码" style="width: 40%; float: left;" id="login_capcha" />
+                                                 <button id="login_button" type="button" class="width-60 pull-right btn btn-sm btn-success" onclick="achieveCapcha()">
+                                                     <span id="verifyMobile_button">获取登录验证码</span>
+                                                </button>
+												</span>
+                                            </label>
+
+                                            <div class="space"></div>
+
+                                            <div class="clearfix">
+                                                <button id="login_button" type="button" class="width-35 pull-right btn btn-sm btn-primary" onclick="login()">
+                                                    <i class="ace-icon fa fa-key"></i> <span class="bigger-110">登录</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="space-4"></div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <!-- /.widget-main -->
+                                <div class="toolbar clearfix">
+                                    <div>
+                                        <a href="#" data-target="#forgot-box" class="forgot-password-link"
+                                           onclick="$('#login_UserName').val(''); $('#login_Password').val('');$('#login_capcha').val('');   $('#main3').css('left','0%');$('#main4').css('left','100%');$('#main5').css('left','100%');
+                                        "> <i class="ace-icon fa fa-arrow-left"></i> 忘记密码
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.widget-body -->
+                        </div>
+                        <!-- /.login-box -->
+
+                        <div id="forgot-box" class="forgot-box widget-box no-border">
+                            <div class="widget-body">
+                                <!--<div class="widget-main">-->
+
+                                <!--</div>-->
+                                <!-- /.widget-main -->
+                                <div class="widget-main ul_btn_dd">
+                                    <div id="main3" class="widget-main ul_btn_divul1" style="left: 0%; padding: 0px">
+                                        <h4 class="header red lighter bigger">
+                                            <i class="ace-icon fa fa-key"></i> 重置密码
+                                        </h4>
+                                        <div class="space-6"></div>
+                                        <p>请输入您的用户名</p>
+                                        <form autocomplete="off" id="forgot_form">
+                                            <fieldset>
+                                                <label class="block clearfix"> <span class="block input-icon input-icon-right"> <input type="text" class="form-control" placeholder="用户名" id="forgot_userName" name="login_UserName" />
+												</span>
+                                                </label>
+                                                <div style="height:80px;">
+
+                                                </div>
+{#                                                <p>请输入您的验证码</p>#}
+{#                                                <label class="block clearfix"> <span class=" input-icon input-icon-right" style="width: 90%; float: left;"> <input type="text" class="form-control" placeholder="验证码" style="width: 60%; float: left;" id="forgot_capcha" name="capcha3" />#}
+												</span>
+                                                </label>
+                                                <div class="clearfix">
+                                                    <button id="nextStep_button" type="button" class="width-30 pull-right btn btn-sm btn-danger" onclick="nextStep()">
+                                                        <span class="bigger-110">下一步</span>
+                                                        <i class="ace-icon fa fa-arrow-right "></i>
+                                                    </button>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+
+                                    <div id="main4" class="widget-main ul_btn_divul2" style="left: 100%">
+                                        <h4 class="header red lighter bigger">
+                                            <i class="ace-icon fa fa-key"></i> 重置密码
+                                        </h4>
+                                        <div class="container-fluid">
+                                            <div class="row-fluid">
+                                                <div class="span12">
+                                                    <div class="tabbable">
+                                                        <div style="display: none" id="bind_password"></div>
+                                                        <ul class="nav nav-tabs">
+                                                            <li class="active"><a href="#panel-10002" data-toggle="tab" id="mobileLi">手机</a></li>
+                                                            <li><a href="#panel-10001" data-toggle="tab">邮箱</a></li>
+
+                                                        </ul>
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane" id="panel-10001">
+                                                                <form id="forgot_email_form" autocomplete="off">
+                                                                    <fieldset>
+                                                                        <label class="block clearfix">
+                                                                            <i class="ace-icon fa fa-user"></i>
+                                                                            <span class=" input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control"id="forgot_email_userName" disabled="true" />
+																			</span>
+                                                                        </label>
+                                                                        <label class="block clearfix">
+                                                                            <i class="ace-icon fa fa-envelope-o"></i>
+                                                                            <span class="input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control" placeholder="请输入您绑定的邮箱" id="forgot_email_email" name="forgot_email"/>
+																			</span>
+                                                                        </label>
+                                                                        <label class="block clearfix" style="visibility:hidden">
+                                                                            <span class="input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control"/>
+																			</span>
+                                                                        </label>
+                                                                        <div class="clearfix">
+                                                                            <button type="button" class="width-40 pull-left btn btn-sm" onclick="lastStep()">
+                                                                                <i class="ace-icon fa fa-arrow-left"></i>
+                                                                                <span class="bigger-110">上一步</span>
+                                                                            </button>
+                                                                            <button id="resetPasswordEmail_button" type="button" class="width-45 pull-right btn btn-sm btn-success" onclick="resetPasswordEmail()">
+                                                                                <i class="ace-icon fa fa-search"></i>
+                                                                                <span class="bigger-110">重置密码</span>
+                                                                            </button>
+                                                                        </div>
+                                                                    </fieldset>
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane active" id="panel-10002">
+                                                                <form id="forgot_mobile_form" autocomplete="off">
+                                                                    <fieldset>
+                                                                        <label class="block clearfix">
+                                                                            <i class="ace-icon fa fa-user"></i>
+                                                                            <span class=" input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control"id="forgot_mobile_userName" disabled="true" />
+																			</span>
+                                                                        </label>
+                                                                        <label class="block clearfix">
+                                                                            <i class="ace-icon fa fa-mobile"></i>
+                                                                            <span class="input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control" placeholder="请输入您绑定的手机" id="forgot_mobile_mobile" name="forgot_mobile"/>
+																			</span>
+                                                                        </label>
+                                                                        <label class="block clearfix" style="visibility:hidden">
+                                                                            <span class="input-icon input-icon-right" style="width: 90%; float: right;">
+                                                                                <input type="text" class="form-control"/>
+																			</span>
+                                                                        </label>
+                                                                        <div class="clearfix">
+                                                                            <button type="button" class="width-40 pull-left btn btn-sm" onclick="lastStep()">
+                                                                                <i class="ace-icon fa fa-arrow-left"></i>
+                                                                                <span class="bigger-110">上一步</span>
+                                                                            </button>
+                                                                            <button id="resetPasswordMobile_button" type="button" class="width-45 pull-right btn btn-sm btn-success" onclick="resetPasswordMobile()">
+                                                                                <i class="ace-icon fa fa-search"></i>
+                                                                                <span class="bigger-110">重置密码</span>
+                                                                            </button>
+                                                                        </div>
+                                                                    </fieldset>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="main5" class="widget-main ul_btn_divul2" style="left: 100%">
+                                        <h4 class="header red lighter bigger">
+                                            <i class="ace-icon fa fa-key"></i>找回密码
+                                        </h4>
+                                        <div class="space-6"></div>
+                                        <h4 style="text-align: center;color:#d0c03c">密码已重置！</h4>
+                                        <div class="hr hr-dotted"></div>
+                                        <p style="font-size:18px;color: #d0c03c" id="resetPasswordText"></p>
+                                        <br/>
+                                    </div>
+                                </div>
+                                <div class="toolbar center">
+                                    <a href="#" data-target="#login-box" class="back-to-login-link" onclick="$('#login_capcha_img').attr('src','/user/select/capcha?rnd='+ Math.random());
+                                       $('#forgot_userName').val('');$('#forgot_capcha').val('');$('#forgot_question_answer').val('');$('#forgot_email_email').val(''); $('#forgot_mobile_mobile').val('');
+                                       "> 返回登陆页面 <i class="ace-icon fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.widget-body -->
+                        </div>
+                        <!-- /.forgot-box -->
+
+
+
+
+                    </div>
+                    <!-- /.position-relative -->
+
+                </div>
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.main-content -->
+</div>
+<!-- /.main-container -->
+
+
+
+<!-- basic scripts -->
+<!--[if !IE]> -->
+<script src="/static/ace/components/jquery/dist/jquery.js"></script>
+<!-- <![endif]-->
+<!--[if IE]>-->
+<script src="/static/ace/components/jquery.1x/dist/jquery.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    if ('ontouchstart' in document.documentElement)
+        document
+                .write("<script src='/static/ace/components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"
+                        + "<" + "/script>");
+    jQuery(function($) {
+        $(document).on('click', '.toolbar a[data-target]', function(e) {
+            e.preventDefault();
+            var target = $(this).data('target');
+            $('.widget-box.visible').removeClass('visible');//hide others
+            $(target).addClass('visible');//show target
+        });
+    });
+</script>
+<script src="/static/ace/components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/static/ace/components/bootbox.js/bootbox.js"></script>
+
+<script src="/static/javascript/jquery.validate.js"></script>
+<script src="/static/javascript/common.js"></script>
+
+
+<script type="text/javascript" src="/static/javascript/js/index.js"></script>
+
+<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabe" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="userModalLabe"></h3>
+            </div>
+            <div class="modal-body">
+                <p id="userModalBody" style="text-align: center; font-size: 16px">
+                    系统将在 <span id="time">3</span> 秒钟后自动跳转，如果未能跳转，
+                </p>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+<script src="/static/ace/components/html5shiv/dist/html5shiv.min.js"></script>
+<script src="/static/ace/components/respond/dest/respond.min.js"></script>
+</body>
+</html>

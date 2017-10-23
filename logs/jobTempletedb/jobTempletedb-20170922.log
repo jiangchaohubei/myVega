@@ -1,0 +1,52 @@
+2017-09-22 17:18:21,344 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:18:21,357 jobTemplatedb.py[line:535] INFO groupList:[]
+2017-09-22 17:18:21,358 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:18:21,358 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:18:54,789 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:18:54,803 jobTemplatedb.py[line:535] INFO groupList:[]
+2017-09-22 17:18:54,803 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:18:54,803 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:20:08,591 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:20:08,596 jobTemplatedb.py[line:535] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:20:08,596 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:20:08,596 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:20:34,532 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:20:34,555 jobTemplatedb.py[line:535] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:20:34,558 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:20:34,559 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:20:51,173 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:20:51,178 jobTemplatedb.py[line:535] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:20:51,180 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:20:51,180 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:22:56,628 jobTemplatedb.py[line:527] INFO init_commands_select start
+2017-09-22 17:22:56,641 jobTemplatedb.py[line:535] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:22:56,641 jobTemplatedb.py[line:536] INFO credentialsList:[]
+2017-09-22 17:22:56,641 jobTemplatedb.py[line:537] INFO init_commands_select end
+2017-09-22 17:43:14,813 jobTemplatedb.py[line:528] INFO init_commands_select start
+2017-09-22 17:43:14,838 jobTemplatedb.py[line:536] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:43:14,845 jobTemplatedb.py[line:537] INFO credentialsList:[]
+2017-09-22 17:43:14,845 jobTemplatedb.py[line:538] INFO init_commands_select end
+2017-09-22 17:44:01,964 jobTemplatedb.py[line:528] INFO init_commands_select start
+2017-09-22 17:44:01,983 jobTemplatedb.py[line:536] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:44:01,983 jobTemplatedb.py[line:537] INFO credentialsList:[]
+2017-09-22 17:44:01,986 jobTemplatedb.py[line:538] INFO init_commands_select end
+2017-09-22 17:46:14,045 jobTemplatedb.py[line:528] INFO init_commands_select start
+2017-09-22 17:46:14,059 jobTemplatedb.py[line:536] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 17:46:14,059 jobTemplatedb.py[line:537] INFO credentialsList:[]
+2017-09-22 17:46:14,059 jobTemplatedb.py[line:538] INFO init_commands_select end
+2017-09-22 18:12:01,500 jobTemplatedb.py[line:529] INFO init_commands_select start
+2017-09-22 18:12:01,509 jobTemplatedb.py[line:537] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 18:12:01,510 jobTemplatedb.py[line:538] INFO credentialsList:[]
+2017-09-22 18:12:01,512 jobTemplatedb.py[line:539] INFO init_commands_select end
+2017-09-22 18:13:08,394 jobTemplatedb.py[line:529] INFO init_commands_select start
+2017-09-22 18:13:08,407 jobTemplatedb.py[line:537] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 18:13:08,407 jobTemplatedb.py[line:538] INFO credentialsList:[]
+2017-09-22 18:13:08,408 jobTemplatedb.py[line:539] INFO init_commands_select end
+2017-09-22 18:14:20,918 jobTemplatedb.py[line:529] INFO init_commands_select start
+2017-09-22 18:14:20,926 jobTemplatedb.py[line:537] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}]
+2017-09-22 18:14:20,927 jobTemplatedb.py[line:538] INFO credentialsList:[]
+2017-09-22 18:14:20,927 jobTemplatedb.py[line:539] INFO init_commands_select end
+2017-09-22 18:15:31,635 jobTemplatedb.py[line:529] INFO init_commands_select start
+2017-09-22 18:15:31,654 jobTemplatedb.py[line:537] INFO groupList:[{"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "test", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T17:19:44", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T17:19:44", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "test"}, "model": "app_tower.t_group", "pk": 1}, {"fields": {"OWNER_ALL": true, "HAS_ACTIVE_FAILURES": true, "HAS_INVENTORY_SOURCE": true, "CREATE_USER_ID": 1, "NAME": "sdfsf", "MODIFY_USER_ID": null, "HAS_EXTENRN_SOURCE": true, "VARIABLES": "", "LAST_MODIFY_TIME": "2017-09-22T18:15:05", "INVENTORY_ID": 0, "TOTAL_HOSTS": null, "CREATE_TIME": "2017-09-22T18:15:05", "OWNER_NAME": null, "OWNER_PROJECT_ID": null, "CREATE_USER_NAME": "Admin", "OWNER_ID": null, "DESCRIPTION": "fdf"}, "model": "app_tower.t_group", "pk": 2}]
+2017-09-22 18:15:31,654 jobTemplatedb.py[line:538] INFO credentialsList:[]
+2017-09-22 18:15:31,654 jobTemplatedb.py[line:539] INFO init_commands_select end

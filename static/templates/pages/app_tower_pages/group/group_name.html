@@ -1,0 +1,347 @@
+<html lang="zh_CN">
+<head>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="robots" content="NONE,NOARCHIVE">
+    <title>用户设置列表 | DjangoX</title>
+    <link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+
+    <link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen"
+          rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+
+    <link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+
+    <link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+
+    <!--bootstrap/表格-->
+    <link href="/static/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fileinput css-->
+    <link rel="stylesheet" href="/static/js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="/static/stylesheets/bootstrap-table.css">
+    <link rel="stylesheet" href="/static/js/bootstrap/css/table.css">
+
+</head>
+<body class="change-list" onload="onload_group_name()">
+
+<!-- Header -->
+<div id="body-content" class="clearfix row" style="margin-top: 15px;">
+    <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="/static/templates/pages/app_tower_pages/group/group.html">主机组</a>
+            </li>
+
+            <li id="groupName">
+                增加主机
+            </li>
+
+
+        </ul>
+
+        <div class="navbar content-navbar navbar-default navbar-xs" data-toggle="breakpoint"
+             data-class-xs="navbar content-navbar navbar-inverse navbar-xs"
+             data-class-sm="navbar content-navbar navbar-default navbar-xs">
+            <div class="navbar-header">
+
+
+                <button type="button" class="navbar-toggle pull-left" onclick="javascript: history.back();"><i
+                        class="fa fa-arrow-left"></i></button>
+
+
+                <a class="navbar-brand" data-toggle="collapse" data-target="#top-nav .navbar-collapse">
+                    <i class="fa fa-group"><sub class="fa fa-plus"></sub></i>
+                    增加主机
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                </ul>
+
+
+                <div class="navbar-btn navbar-right hide-xs">
+
+
+                </div>
+            </div>
+        </div>
+
+        <form class="exform rended" enctype="multipart/form-data" action="" method="post"
+              id="host_form">
+            <div class="form-container row clearfix">
+                <div id="column-0" class="formColumn column form-column full col col-sm-12 form-horizontal ui-sortable"
+                     horizontal="True" span="12">
+                    <div class="panel panel-default fieldset unsort no_title" id="box-0">
+                        <div class="panel-heading"><i class="icon fa fa-chevron-up chevron"></i>
+                            <h3 class="panel-title"></h3></div>
+                        <div class="panel-body ">
+                            <div id="div_id_name" class="form-group">
+                                <label for="id_hostname" class="control-label  requiredField">
+                                    主机地址<span class="asteriskField">*</span>
+                                </label>
+                                <div class="controls ">
+                                    <input class="text-field admintextinputwidget form-control" id="groupId"
+                                           style="display:none" maxlength="80" name="id" type="text">
+                                    <input class="text-field admintextinputwidget form-control" id="hostName" placeholder="主机地址"
+                                           maxlength="32" name="ip" type="text"></div>
+                            </div>
+                            <div id="div_id_descript" class="form-group">
+                                <label class="control-label  requiredField">
+                                    描述<span class="asteriskField">*</span>
+                                </label>
+                                <div class="controls ">
+                                    <input class="text-field admintextinputwidget form-control" id="description" placeholder="描述"
+                                           maxlength="80" name="agree" type="text">
+                                </div>
+                            </div>
+                            <div id="div_id_permissions" class="form-group">
+                                <label class="control-label ">
+                                    变量
+                                </label>
+                                <div class="controls ">
+                                    <textarea class="textarea-field admintextareawidget form-control" cols="40"
+                                              id="variables" name="VARIABLES" rows="3"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions well well-sm clearfix fixed2left" style="text-align: center">
+                <button type="button" onclick="save_host()" class="default btn btn-primary hide-xs" name="_save"
+                        data-loading-text="保存中.."><i
+                        class="fa fa-save"></i> 保存
+                </button>
+                <div class="nav-collapse collapse more-btns">
+                    <input type="reset" class="btn btn-warning" value="重置" name="_addanother">
+                </div>
+                <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModal">
+                    <i class="fa fa-upload"></i>
+                            主机组导入(增量)
+                </button>
+                <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#importAndDeleteModal">
+                    <i class="fa fa-upload"></i>
+                    主机组导入(清空导入)
+                </button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='/app_tower/hosts/downloadXLSX?filename=host.xlsx'"  >
+                    <i class="fa fa-download"></i>
+                    示例文件下载
+                </button>
+            </div>
+        </form>
+
+
+        <div class="navbar content-navbar navbar-default navbar-xs" data-toggle="breakpoint"
+             data-class-xs="navbar content-navbar navbar-inverse navbar-xs"
+             data-class-sm="navbar content-navbar navbar-default navbar-xs">
+            <div class="navbar-header">
+
+                <a class="navbar-brand" data-toggle="collapse" data-target="#top-nav .navbar-collapse">
+                    <i class="fa fa-cog"></i> 主机列表
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                </ul>
+
+
+            </div>
+        </div>
+
+        <!--主机列表-->
+
+        <div class="results table-responsive" style="margin-bottom: 50px">
+
+            <table id="host_table"></table>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="modal fade" id="deleteHostModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel" title="删除主机">删除主机</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" style="margin-left:35px;height:25px"  id="delete_id"  hidden>
+                <div class="profile-user-info profile-user-info-striped">
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="组名称">主机名称</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteName"></span>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="描述">描述</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteDescription"></span>
+                        </div>
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="变量">变量</div>
+                        <div class="profile-info-value">
+                            <span class="editable" id="deleteVariables"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" onclick="deleteHost()" class="btn btn-primary" data-dismiss="modal">确定删除</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+
+<!--主机组修改模态框-->
+<div class="modal fade" id="updateHostModal">
+    <div class="modal-dialog">
+        <div class="modal-content message_align">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" title="主机修改">主机修改</h4>
+            </div>
+            <div class="modal-body">
+                <form id="update_host_form">
+
+                <input type="text" style="margin-left:35px;height:25px"  id="updateHost_id"  hidden>
+                <div class="profile-user-info profile-user-info-striped">
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="主机名称">主机名称</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateHost_name" name="ip"/>
+                        </div>
+
+                    </div>
+
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="描述">描述</div>
+                        <div class="profile-info-value">
+                            <input type="text" id="updateHost_description" name="agree"/>
+                        </div>
+
+                    </div>
+                    <div class="profile-info-row">
+                        <div class="profile-info-name" title="变量">变量</div>
+                        <div class="profile-info-value">
+                            <textarea class="form-control"  rows="3" id="updateHost_variables"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type = "button" data-dismiss="modal" onclick="updateHost()" class="btn btn-success" >确定</button>
+                </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">导入主机组文件</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+           <form id="importForm" enctype="multipart/form-data" method="post">
+           <input  id="uploadGroupId" style="display:none" maxlength="80" name="uploadGroupId" type="text">
+           <label for="input-b1">选择文件</label>
+           <input id="inputFile" name="inputFile"  type="file" class="file">
+
+           </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button class="btn btn-success" type="button" onclick="importHosts()" >上传</button>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="importAndDeleteModal" tabindex="-1" role="dialog" aria-labelledby="importAndDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="importAndDeleteModalLabel">导入主机组文件</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="importAndDeleteForm" enctype="multipart/form-data" method="post">
+
+                    <label for="input-b1">选择文件</label>
+                    <input id="inputHostFile" name="inputFile"  type="file" class="file">
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <button class="btn btn-success" type="button" onclick="importAndDeleteHosts()" >上传</button>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<br>
+<br>
+<script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+
+<script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+			<!--bootstrap fileinput js-->
+<script src="/static/js/bootstrap-fileinput/js/fileinput.min.js"></script>
+<script src="/static/js/bootstrap-fileinput/js/fileinput.js"></script>
+<script src="/static/js/bootstrap-fileinput/js/fileinput_locale_zh.js"></script>
+<script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/static/javascript/bootstrap-table.js"></script>
+<script src="/static/javascript/bootstrap-table-zh-CN.js"></script>
+<script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+<script src="/static/javascript/jquery.validate.js"></script>
+<script src="/static/javascript/common.js"></script>
+<script type="text/javascript" src="/static/javascript/js/app_tower_js/group/group_name.js"></script>
+<script type="text/javascript">
+
+    $("#inputFile").fileinput({
+        language: 'zh', //设置语言
+    });
+
+</script>
+</body>
+</html>

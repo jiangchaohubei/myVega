@@ -1,0 +1,63 @@
+2017-10-20 09:47:28,496 authoritydb.py[line:25] INFO login start
+2017-10-20 09:47:28,509 authoritydb.py[line:258] INFO md5 start
+2017-10-20 09:47:28,509 authoritydb.py[line:261] INFO md5 end
+2017-10-20 09:47:28,553 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 09:47:28,555 authoritydb.py[line:113] INFO login end
+2017-10-20 09:50:30,279 authoritydb.py[line:25] INFO login start
+2017-10-20 09:50:30,289 authoritydb.py[line:258] INFO md5 start
+2017-10-20 09:50:30,290 authoritydb.py[line:261] INFO md5 end
+2017-10-20 09:50:30,316 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 09:50:30,318 authoritydb.py[line:113] INFO login end
+2017-10-20 09:55:33,394 authoritydb.py[line:25] INFO login start
+2017-10-20 09:55:33,405 authoritydb.py[line:258] INFO md5 start
+2017-10-20 09:55:33,405 authoritydb.py[line:261] INFO md5 end
+2017-10-20 09:55:33,415 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 09:55:33,415 authoritydb.py[line:113] INFO login end
+2017-10-20 10:06:10,105 authoritydb.py[line:25] INFO login start
+2017-10-20 10:06:10,118 authoritydb.py[line:258] INFO md5 start
+2017-10-20 10:06:10,118 authoritydb.py[line:261] INFO md5 end
+2017-10-20 10:06:10,125 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 10:06:10,127 authoritydb.py[line:113] INFO login end
+2017-10-20 10:06:33,003 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 10:06:33,131 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 10:06:37,052 authoritydb.py[line:116] INFO logout strat
+2017-10-20 10:06:37,053 authoritydb.py[line:117] INFO user:jzyuan login out
+2017-10-20 10:06:37,055 authoritydb.py[line:123] INFO logout end
+2017-10-20 10:06:43,789 authoritydb.py[line:25] INFO login start
+2017-10-20 10:06:43,799 authoritydb.py[line:258] INFO md5 start
+2017-10-20 10:06:43,799 authoritydb.py[line:261] INFO md5 end
+2017-10-20 10:06:43,819 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 10:06:43,819 authoritydb.py[line:113] INFO login end
+2017-10-20 10:06:44,338 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 10:06:44,484 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 10:06:46,407 authoritydb.py[line:366] INFO selectUser start
+2017-10-20 10:06:46,413 authoritydb.py[line:425] INFO selectRole start
+2017-10-20 10:06:46,421 authoritydb.py[line:468] INFO selectRole end
+2017-10-20 10:06:46,427 authoritydb.py[line:418] INFO selectUser end
+2017-10-20 10:07:57,359 authoritydb.py[line:25] INFO login start
+2017-10-20 10:07:57,371 authoritydb.py[line:258] INFO md5 start
+2017-10-20 10:07:57,371 authoritydb.py[line:261] INFO md5 end
+2017-10-20 10:07:57,388 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 10:07:57,390 authoritydb.py[line:113] INFO login end
+2017-10-20 10:07:58,114 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 10:07:58,230 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 10:09:22,483 authoritydb.py[line:25] INFO login start
+2017-10-20 10:09:22,494 authoritydb.py[line:258] INFO md5 start
+2017-10-20 10:09:22,496 authoritydb.py[line:261] INFO md5 end
+2017-10-20 10:09:22,519 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 10:09:22,520 authoritydb.py[line:113] INFO login end
+2017-10-20 10:09:23,180 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 10:09:23,303 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 10:38:19,140 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 10:38:19,256 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 17:53:41,657 authoritydb.py[line:25] INFO login start
+2017-10-20 17:53:41,667 authoritydb.py[line:258] INFO md5 start
+2017-10-20 17:53:41,668 authoritydb.py[line:261] INFO md5 end
+2017-10-20 17:53:41,701 authoritydb.py[line:57] INFO jzyuan登陆成功
+2017-10-20 17:53:41,701 authoritydb.py[line:113] INFO login end
+2017-10-20 17:53:42,243 authoritydb.py[line:777] INFO JobStatusStatics start
+2017-10-20 17:53:42,361 authoritydb.py[line:855] INFO JobStatusStatics end
+2017-10-20 17:53:46,627 authoritydb.py[line:366] INFO selectUser start
+2017-10-20 17:53:46,641 authoritydb.py[line:418] INFO selectUser end
+2017-10-20 17:53:46,651 authoritydb.py[line:425] INFO selectRole start
+2017-10-20 17:53:46,657 authoritydb.py[line:468] INFO selectRole end

@@ -1,0 +1,441 @@
+<html lang="zh_CN"><head>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+<meta name="robots" content="NONE,NOARCHIVE">
+<title>授权管理</title>
+<link href="/static/xadmin/vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" id="site-theme" href="/static/xadmin/css/themes/bootstrap-xadmin.css">
+<link href="/static/xadmin/vendor/font-awesome/css/font-awesome.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.main.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.responsive.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.main.frame.css" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.form.css" type="text/css" media="screen" rel="stylesheet">
+<link href="/static/xadmin/css/xadmin.plugins.css" type="text/css" media="screen" rel="stylesheet">
+
+  <!--bootstrap/表格-->
+    <link href="/static/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/stylesheets/bootstrap-table.css">
+    <link rel="stylesheet" href="/static/js/bootstrap/css/table.css">
+    <link rel="stylesheet" href="/static/stylesheets/authority.css">
+
+    <link rel="stylesheet" href="/static/stylesheets/selectvalidate.css">
+
+
+
+</head>
+<body class="change-list">
+  <div id="body-content" class="clearfix row" style="margin-top: 15px;">
+        <div id="content-block" class="col-sm-12 col-md-12 main-content" style="padding-left: 15px">
+          <ul class="breadcrumb">
+                  <li><h4>
+                      用户角色管理</h4>
+                  </li>
+          </ul>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="tabbable" id="tabs-953211">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#usergrant" data-toggle="tab">用户授权管理</a>
+                            </li>
+                            <li>
+                                <a href="#rolegrant" data-toggle="tab">角色授权管理</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="span12">
+
+
+
+		                     </div>
+
+                            <div class="tab-pane active" id="usergrant">
+                                <button class="btn btn-primary" type="button" onclick="showSaveUserModel();">添加用户</button>
+                                 <form id="formusergrantSearch" class="form" style="margin:0;display:block">
+                                     <div class="form-group form-group-xs col-xs-12">
+                                         <div class="col-xs-12">
+                                             <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 " style="margin-top:5px;padding:0;height: 34px">
+                                                 <label title="用户名" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                                                 用户名:
+                                                 </label>
+                                             </div>
+                                             <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                                              <span class="block input-icon input-icon-right">
+                                                  <input type="text" class="form-control" placeholder="请输入用户名" id="usergrant_username" name="login_UserName"/>
+                                              </span>
+                                             </div>
+                                              <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 " style="margin-top:5px;padding:0;height: 34px">
+                                                 <label title="手机号" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                                                 手机号:
+                                                 </label>
+                                             </div>
+                                             <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                                              <span class="block input-icon input-icon-right">
+                                                  <input type="text" class="form-control" placeholder="请输入手机号" id="usergrant_mobile" name="mobile"/>
+                                              </span>
+                                             </div>
+
+                                             <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 " style="margin-top:5px;padding:0;height: 34px">
+                                                 <label title="用户名" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                                                 昵称:
+                                                 </label>
+                                             </div>
+                                             <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                                              <span class="block input-icon input-icon-right">
+                                                  <input type="text" class="form-control" placeholder="请输入昵称" id="usergrant_nickname">
+                                              </span>
+                                             </div>
+
+                                             <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 " style="margin-top:5px;padding:0;height: 34px">
+                                                 <label title="邮箱" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                                                 邮箱:
+                                                 </label>
+                                             </div>
+                                             <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                                              <span class="block input-icon input-icon-right">
+                                                  <input type="text" class="form-control" placeholder="请输入邮箱" id="usergrant_email" name="email">
+                                              </span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </form>
+                                 <div style="margin-top: 15px;text-align: center">
+                                     <div>
+                                        <button type="button" class="btn btn-primary" style="margin-top:20px;width: 80px;" onclick="usergrantSearch()">查询
+                                        </button>
+                                        <button type="button" class="btn btn-warning" style="margin-top:20px;margin-left: ;:20px;width: 80px;margin-left: 10px"
+                                              onclick="usergrantSearchReset()">重置
+                                        </button>
+                                     </div>
+                                 </div>
+                                <div class="results table-responsive">
+                                 <table id="usergrant_table" ></table>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="rolegrant">
+                                <button class="btn btn-primary" type="button" onclick="showSaveRoleModel();">添加角色</button>
+                                <button class="btn btn-primary" id="deleteRole_Button" roleName="" type="button" onclick="showDeleteRoleModel();">删除角色</button>
+                                 <form id="formrolegrantSearch" class="form" style="margin:0;display:block">
+                                     <div class="form-group form-group-xs col-xs-12">
+                                         <div class="col-xs-12">
+                                             <div class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-2 " style="margin-top:5px;padding:0;height: 34px">
+                                                 <label title="角色名" style="font-size:13px;float: right;padding-top:20px;margin-bottom:20px;" for="name">
+                                                 角色名:
+                                                 </label>
+                                             </div>
+                                             <div class="col-lg-2 col-md-2 col-sm-5 col-xs-10" style="margin-top:20px;margin-bottom:20px;height: 34px">
+                                              <span class="block input-icon input-icon-right">
+                                                  <input type="text" class="form-control" placeholder="请输入角色名" id="rolegrantname" name="login_UserName"/>
+                                              </span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </form>
+                                 <div style="margin-top: 15px;text-align: center">
+                                     <div>
+                                        <button type="button" class="btn btn-primary" style="margin-top:20px;width: 80px;" onclick="rolegrantSearch()">查询
+                                        </button>
+                                        <button type="button" class="btn btn-warning" style="width: 80px;margin-top:20px;margin-left: 20px"
+                                              onclick="rolegrantSearchReset()">重置
+                                        </button>
+                                     </div>
+                                 </div>
+                                <div class="results table-responsive">
+                                 <table id="rolegrant_table" ></table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+  </div>
+
+
+<!-- ---------------- 默认角色权限变更模态-------->
+<div class="modal fade" id="authority_updateRolemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="authority_role_Modal_Head">
+                </h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"  data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="update_role_permission()">保存</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+<!-- 添加用户模态框 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel" title="添加用户">添加用户</h4>
+            </div>
+            <div class="modal-body">
+          <input type="text" style="margin-left:35px;height:25px"  id="save_id"  hidden>
+         <div class="profile-user-info profile-user-info-striped">
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="用户名">用户名</div>
+            <div class="profile-info-value">
+                <input type="text" id="save_username"/>
+            </div>
+
+            <div class="profile-info-name" title="用户类型">用户类型</div>
+            <div class="profile-info-value">
+                 <select id="save_role" style="height: 26px;width: 174px;">
+
+                            <option value="超级管理员">超级管理员</option>
+                            <option value="管理员">管理员</option>
+                            <option value="运维人员" selected>运维人员</option>
+                            <option value="游客">游客</option>
+                 </select>
+            </div>
+        </div>
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="手机号">手机号</div>
+            <div class="profile-info-value">
+                <input type="text" id="save_mobile"/>
+            </div>
+
+            <div class="profile-info-name" title="用户邮箱">邮箱</div>
+            <div class="profile-info-value">
+                <input type="text" id="save_email"/>
+            </div>
+        </div>
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="昵称">昵称</div>
+            <div class="profile-info-value">
+                <input type="text" id="save_nickname"/>
+            </div>
+
+
+        </div>
+
+    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" onclick="saveUser()" class="btn btn-primary" data-dismiss="modal">确定添加</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+
+<!-- 删除用户模态框 -->
+<div class="modal fade" id="deleteUserModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel" title="删除用户">删除用户</h4>
+            </div>
+            <div class="modal-body">
+          <input type="text" style="margin-left:35px;height:25px"  id="delete_id"  hidden>
+         <div class="profile-user-info profile-user-info-striped">
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="用户名">用户名</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_username"></span>
+            </div>
+
+            <div class="profile-info-name" title="昵称">昵称</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_nickname"></span>
+            </div>
+        </div>
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="用户类型">用户类型</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_role"></span>
+            </div>
+
+             <div class="profile-info-name" title="手机号">手机号</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_mobile"></span>
+            </div>
+        </div>
+
+        <div class="profile-info-row">
+            <div class="profile-info-name" title="邮箱">邮箱</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_email"></span>
+            </div>
+
+            <div class="profile-info-name" title="注册时间">注册时间</div>
+            <div class="profile-info-value">
+                <span class="editable" id="delete_createTime"></span>
+            </div>
+        </div>
+
+    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" onclick="deleteUser()" class="btn btn-primary" data-dismiss="modal">确定删除</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+  <!-- 修改用户模态框 -->
+  <div class="modal fade" id="updateUserModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h4 class="modal-title" id="myModalLabel" title="修改用户">修改用户</h4>
+              </div>
+              <div class="modal-body">
+                  <form id="update_user_form">
+                  <input type="text" style="margin-left:35px;height:25px"  id="update_id"  hidden>
+                  <div class="profile-user-info profile-user-info-striped">
+
+                      <div class="profile-info-row">
+                          <div class="profile-info-name" title="用户名">用户名</div>
+                          <div class="profile-info-value">
+                              <input type="text" id="update_username" name="name"/>
+                          </div>
+
+                          <div class="profile-info-name" title="昵称">昵称</div>
+                          <div class="profile-info-value">
+                              <input type="text" id="update_nickname" name="name"/>
+                          </div>
+                      </div>
+
+                      <div class="profile-info-row">
+                          <div class="profile-info-name" title="用户类型">用户类型</div>
+                          <div class="profile-info-value">
+
+                              <select  name="owner" id="update_role"  style="height: 26px;width: 174px;margin-left: 0px">
+
+                                  <option value="管理员">管理员</option>
+                                  <option value="运维人员" >运维人员</option>
+                                  <option value="游客">游客</option>
+
+                              </select>
+                          </div>
+
+                          <div class="profile-info-name" title="手机号">手机号</div>
+                          <div class="profile-info-value">
+
+                              <input type="text" id="update_mobile" name="mobile"/>
+
+                          </div>
+                      </div>
+
+                      <div class="profile-info-row">
+                          <div class="profile-info-name" title="邮箱">邮箱</div>
+                          <div class="profile-info-value">
+                              <input type="text" id="update_email" name="email"/>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                  <button type="button" onclick="updateUser()" class="btn btn-primary" >确定修改</button>
+              </div>
+          </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+  </div>
+
+
+  <!-- ---------添加角色模态框-------->
+<div class="modal fade" id="addRolemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title">添加角色
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div >
+                    <label style="margin-left: 30px;margin-top: 10px;" class="block clearfix" title="角色名">角色名:</label>
+                    <input  style="margin-left: 20px;margin-top: 10px;" type="text" id="roleName" placeholder="请输入角色名"/>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="saveRole()">保存</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+  <!-- ---------删除角色模态框-------->
+<div class="modal fade" id="deleteRoleModal" tabindex="-1" role="dialog" aria-labelledby="deleteRoleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <img src="/static/images/user-warning.png"  alt="警告" style="height: 35px;width: 35px;float: left"/>
+                <h3 class="modal-title" id="deleteRoleModalLabel" style="float: left">确认删除角色</h3>
+            </div>
+            <div class="modal-body" id="deleteRoleModal_body" style="text-align: center;padding:0px">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary" onclick="deleteRole()">
+                    确认删除
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+
+
+  <br>
+  <br>
+    <script type="text/javascript" src="/static/xadmin/vendor/jquery/jquery.js"></script>
+    <script src="/static/js/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/static/javascript/bootstrap-table.js"></script>
+    <script src="/static/javascript/bootstrap-table-zh-CN.js"></script>
+    <script src="/static/javascript/bootbox.js" type="text/javascript"></script>
+    <script src="/static/javascript/jquery.validate.js"></script>
+    <script src="/static/javascript/common.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/static/javascript/js/authority/authority.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.ace-icon {
+    text-align: center;
+}
+
+.input-icon > .ace-icon {
+  padding: 0 18px;
+  z-index: 2;
+  position: absolute;
+  bottom: 1px;
+  line-height: 30px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.input-icon.input-icon-right > .ace-icon {
+  left: 270px;
+  right: 3px;
+}
